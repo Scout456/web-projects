@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
-	background-color: aquamarine;
+	background-image: url("https://www.greenpeace.org.au/wp/wp-content/uploads/2015/05/tumblr_njzjlss9H71tv1qiho1_1280.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 15%;
 }
