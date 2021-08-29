@@ -11,15 +11,26 @@ body {
 	height: 100vh;
 }
 
+nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
 .name {
 	color: #878256;
-	font-family: cursive;
-	font-size: 2em;
+	font-family: playball;
+	font-size: 1.5em;
+	margin: 0.1em;
 }
 
 a {
 	text-decoration: none;
-	float: right;
-	padding: 1em;
+	font-family: playball;
+	font-size: 1em;
+
+	padding: 0.1em;
 	color: #786969;
 }
