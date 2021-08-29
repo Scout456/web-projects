@@ -30,7 +30,11 @@ a {
 	text-decoration: none;
 	font-family: playball;
 	font-size: 1em;
-
 	padding: 0.1em;
 	color: #786969;
+}
+
+a:hover {
+	color: #585066;
+	margin-left: 1em;
 }
