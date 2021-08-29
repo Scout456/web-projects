@@ -8,4 +8,18 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-y: 15%;
+	height: 100vh;
+}
+
+.name {
+	color: #878256;
+	font-family: cursive;
+	font-size: 2em;
+}
+
+a {
+	text-decoration: none;
+	float: right;
+	padding: 1em;
+	color: #786969;
 }
