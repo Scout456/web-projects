@@ -4,10 +4,13 @@
 }
 
 nav {
+	background-image: url("https://s3-eu-west-1.amazonaws.com/video.gallereplay.com/landing/sliderone-timelapseloop-tyler.gif");
 	text-align: center;
-	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	width: 100%;
-	height: 15vh;
+	height: 100vh;
 }
 
 .name {
@@ -26,11 +29,17 @@ a {
 }
 
 a:hover {
-	color: wheat;
+	color: black;
 	font-size: 1.2em;
 }
 
 .projects {
+	width: 100%;
+	height: 100vh;
+	background-image: url("https://www.greenpeace.org.au/wp/wp-content/uploads/2015/05/tumblr_njzjlss9H71tv1qiho1_1280.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 @media screen and (min-width: 700px) {
@@ -48,25 +57,19 @@ a:hover {
 	}
 }
 
-/*@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
 	.projects {
-		background-image: url("https://s3-eu-west-1.amazonaws.com/video.gallereplay.com/landing/sliderone-timelapseloop-tyler.gif");
+		background-image: url("");
 		background-position: bottom;
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100vh;
 	}
-}*/
+}
 
 @media screen and (min-width: 700px) {
 	a,
 	.name {
 		color: whitesmoke;
-	}
-}
-
-@media screen and (min-width: 700px) {
-	a:hover {
-		color: wheat;
 	}
 }
