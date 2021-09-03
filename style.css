@@ -112,6 +112,19 @@ h1 {
 	color: transparent;
 }
 
+header {
+	text-align: center;
+	color: #232324;
+}
+
+.touchless {
+	text-decoration: underline;
+}
+
+.touchless:hover {
+	color: black;
+}
+
 @media screen and (min-width: 350px) {
 	.dropdown {
 		left: 48%;
