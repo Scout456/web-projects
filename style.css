@@ -118,6 +118,18 @@ h1 {
 	}
 }
 
+@media screen and (min-width: 500px) {
+	.dropdown {
+		left: 54%;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.dropdown {
+		left: 55%;
+	}
+}
+
 @media screen and (min-width: 700px) {
 	.name {
 		float: left;
