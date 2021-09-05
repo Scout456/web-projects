@@ -44,8 +44,9 @@ a {
 	color: black;
 }
 
-h1 {
+.projects {
 	text-align: center;
+	color: black;
 }
 
 .model-s {
@@ -215,5 +216,19 @@ header {
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100vh;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	h1,
+	.touchless,
+	p {
+		color: whitesmoke;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.touchless:hover {
+		color: lightblue;
 	}
 }
