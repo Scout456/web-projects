@@ -75,7 +75,7 @@ h1 {
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
 	position: relative;
-	left: 42%;
+	left: 40%;
 	display: inline-block;
 }
 
@@ -133,7 +133,22 @@ header {
 	align-content: flex-end;
 	position: relative;
 	bottom: -12em;
-	gap: 2em;
+	gap: 3em;
+}
+
+.custom-order {
+	border-radius: 15px 15px;
+	border: none;
+	padding: 0.4em;
+	background-color: #35373d;
+	color: whitesmoke;
+}
+
+.existing-inventory {
+	border-radius: 15px 15px;
+	border: none;
+	padding: 0.4em;
+	background-color: #e3dfdd;
 }
 
 @media screen and (min-width: 350px) {
