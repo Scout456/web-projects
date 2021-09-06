@@ -2,6 +2,14 @@
 	margin: 0;
 	padding: 0;
 }
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: playball;
+}
 
 .top-div {
 	background-image: url("https://s3-eu-west-1.amazonaws.com/video.gallereplay.com/landing/sliderone-timelapseloop-tyler.gif");
@@ -120,7 +128,7 @@ header {
 }
 
 .model--s {
-	font-size: 3em;
+	font-size: 2em;
 	letter-spacing: 2px;
 	font-weight: normal;
 }
@@ -137,19 +145,20 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: flex-end;
-	align-content: flex-end;
+	align-items: center;
+	align-content: center;
 	position: relative;
-	bottom: -14em;
-	gap: 3em;
+	bottom: -10em;
+	gap: 1em;
 }
 
 .custom-order {
 	border-radius: 15px 15px;
 	border: none;
-	padding: 0.4em;
+	padding: 0.2em;
 	background-color: #35373d;
 	color: whitesmoke;
+	font-size: 0.8em;
 }
 
 .fa-angle-down {
@@ -163,12 +172,12 @@ header {
 .existing-inventory {
 	border-radius: 15px 15px;
 	border: none;
-	padding: 0.4em;
+	padding: 0.2em;
 	background-color: #e3dfdd;
 }
 
 .model-s-specs {
-	background-image: url("https://s.yimg.com/ny/api/res/1.2/4kcespc.DwIn1ms3BUbVGw--/YXBwaWQ9aGlnaGxhbmRlcjtoPTY2Ng--/https://media.zenfs.com/en/car_and_driver_581/05acb1bab55a96089e1de0dde7159da0");
+	background-image: url("https://images.squarespace-cdn.com/content/v1/5e9e38f5c9e985731e19ab35/1602111881498-B25QRWEPDSRMFOUFZJDJ/ezgif.com-gif-maker+%281%29.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -178,39 +187,39 @@ header {
 .modelS {
 	color: black;
 	padding: 0.3em;
-	font-size: 3em;
+	font-size: 2em;
 	letter-spacing: 2px;
 	font-weight: normal;
 }
 
 .plaid {
-	color: rgb(19, 18, 18);
+	color: rgb(82, 77, 77);
 	font-size: 1.5em;
 	letter-spacing: 2px;
 }
 
 .performance {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	position: relative;
-	bottom: -55%;
-	color: #4e3331;
+	bottom: -50%;
+	color: #0c0b0b;
 }
 
-.numbers ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	list-style-type: none;
-	gap: 1.8em;
-	font-size: 2em;
+table {
+	border-spacing: 0.5em;
+	text-align: center;
 }
 
-.range ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	list-style-type: none;
+th {
+	font-size: 1.2em;
+}
 
-	font-size: 1em;
+td {
+	font-size: 0.8em;
 }
 
 @media screen and (min-width: 350px) {
@@ -313,5 +322,35 @@ header {
 	.btns {
 		position: relative;
 		bottom: -60%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.model-s-specs {
+		background-image: url("https://media2.giphy.com/media/xT39DhBvK92OIeFsVG/giphy.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.performance {
+		color: whitesmoke;
+		position: relative;
+		bottom: -50%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	table {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	th {
+		font-size: 2em;
 	}
 }
