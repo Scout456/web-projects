@@ -148,7 +148,7 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -10em;
+	bottom: -14em;
 	gap: 1em;
 }
 
@@ -193,7 +193,7 @@ header {
 }
 
 .plaid {
-	color: rgb(82, 77, 77);
+	color: rgb(170, 51, 51);
 	font-size: 1.5em;
 	letter-spacing: 2px;
 }
@@ -206,7 +206,6 @@ header {
 	align-content: center;
 	position: relative;
 	bottom: -50%;
-	color: #0c0b0b;
 }
 
 table {
@@ -215,19 +214,22 @@ table {
 
 th {
 	font-size: 1em;
+	color: black;
 }
 
 td {
 	font-size: 0.8em;
+	color: black;
 }
 
 .s-order-now {
 	border-radius: 15px 15px;
-	border-color: black;
+	border: 2px solid black;
 	background-color: transparent;
 	color: black;
 	font-size: 0.7em;
 	padding: 0.5em;
+	font-weight: bolder;
 }
 
 @media screen and (min-width: 350px) {
@@ -326,8 +328,9 @@ td {
 	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
 	.btns {
+		gap: 5em;
 		position: relative;
 		bottom: -60%;
 	}
@@ -369,5 +372,12 @@ td {
 		background-color: transparent;
 		color: whitesmoke;
 		border: 2px solid whitesmoke;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	th,
+	td {
+		color: whitesmoke;
 	}
 }
