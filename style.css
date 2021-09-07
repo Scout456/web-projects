@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	scroll-behavior: smooth;
+}
 .main {
 	display: flex;
 	flex-direction: column;
@@ -25,14 +29,14 @@
 .name {
 	color: whitesmoke;
 	font-family: playball;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin: 0.1em;
 }
 
 .one {
 	text-decoration: none;
 	font-family: playball;
-	font-size: 1em;
+	font-size: 1.5em;
 	padding: 0.5em;
 	color: whitesmoke;
 }
@@ -129,9 +133,9 @@ header {
 }
 
 .model--s {
-	font-size: 2em;
+	font-size: 3em;
 	letter-spacing: 2px;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .touchless {
@@ -190,9 +194,8 @@ header {
 .modelS {
 	color: whitesmoke;
 	padding: 0.3em;
-	font-size: 2em;
-	letter-spacing: 2px;
-	font-weight: normal;
+	font-size: 3em;
+	font-weight: bold;
 }
 
 .plaid {
@@ -208,15 +211,16 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -65%;
+	bottom: 40vh;
 }
 
 table {
 	text-align: center;
+	padding: 0.8em;
 }
 
 th {
-	font-size: 1em;
+	font-size: 1.2em;
 	color: whitesmoke;
 }
 
@@ -374,6 +378,7 @@ button,
 @media screen and (min-width: 700px) {
 	.s-order-now {
 		border-radius: 20px 20px;
+		padding: 1em;
 		background-color: transparent;
 		color: whitesmoke;
 		border: 2px solid whitesmoke;
@@ -391,5 +396,12 @@ button,
 	.modelS,
 	.plaid {
 		color: black;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.modelS,
+	.model--s {
+		font-size: 4em;
 	}
 }
