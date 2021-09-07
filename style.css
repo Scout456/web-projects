@@ -9,6 +9,7 @@
 	align-items: center;
 	align-content: center;
 	font-family: playball;
+	width: 100%;
 }
 
 .top-div {
@@ -142,13 +143,14 @@ header {
 }
 
 .btns {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -14em;
+	bottom: -30em;
 	gap: 1em;
 }
 
@@ -174,10 +176,11 @@ header {
 	border: none;
 	padding: 0.2em;
 	background-color: #e3dfdd;
+	color: black;
 }
 
 .model-s-specs {
-	background-image: url("https://images.squarespace-cdn.com/content/v1/5e9e38f5c9e985731e19ab35/1602111881498-B25QRWEPDSRMFOUFZJDJ/ezgif.com-gif-maker+%281%29.gif");
+	background-image: url("https://i.gifer.com/6h6.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -185,7 +188,7 @@ header {
 }
 
 .modelS {
-	color: black;
+	color: whitesmoke;
 	padding: 0.3em;
 	font-size: 2em;
 	letter-spacing: 2px;
@@ -193,19 +196,19 @@ header {
 }
 
 .plaid {
-	color: rgb(170, 51, 51);
+	color: whitesmoke;
 	font-size: 1.5em;
 	letter-spacing: 2px;
 }
 
 .performance {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -50%;
+	bottom: -65%;
 }
 
 table {
@@ -214,19 +217,20 @@ table {
 
 th {
 	font-size: 1em;
-	color: black;
+	color: whitesmoke;
 }
 
 td {
 	font-size: 0.8em;
-	color: black;
+	color: whitesmoke;
 }
 
+button,
 .s-order-now {
 	border-radius: 15px 15px;
-	border: 2px solid black;
+	border: 2px solid whitesmoke;
 	background-color: transparent;
-	color: black;
+	color: whitesmoke;
 	font-size: 0.7em;
 	padding: 0.5em;
 	font-weight: bolder;
@@ -348,6 +352,7 @@ td {
 
 @media screen and (min-width: 700px) {
 	.performance {
+		flex-direction: row;
 		color: whitesmoke;
 		position: relative;
 		bottom: -50%;
@@ -379,5 +384,12 @@ td {
 	th,
 	td {
 		color: whitesmoke;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.modelS,
+	.plaid {
+		color: black;
 	}
 }
