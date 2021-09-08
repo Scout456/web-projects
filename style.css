@@ -211,7 +211,7 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: 40vh;
+	bottom: -60%;
 }
 
 table {
@@ -359,7 +359,7 @@ button,
 		flex-direction: row;
 		color: whitesmoke;
 		position: relative;
-		bottom: -50%;
+		bottom: -40%;
 	}
 }
 
