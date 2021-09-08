@@ -31,6 +31,12 @@ html {
 	font-family: playball;
 	font-size: 2em;
 	margin: 0.1em;
+	cursor: pointer;
+}
+
+.name:hover {
+	color: #b5bdc7;
+	font-size: 2.4em;
 }
 
 .one {
@@ -39,11 +45,12 @@ html {
 	font-size: 1.5em;
 	padding: 0.5em;
 	color: whitesmoke;
+	cursor: pointer;
 }
 
 .one:hover {
 	color: black;
-	font-size: 1.2em;
+	font-size: 2em;
 }
 
 .tds-icon {
@@ -135,7 +142,7 @@ header {
 .model--s {
 	font-size: 3em;
 	letter-spacing: 2px;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 .touchless {
@@ -147,14 +154,14 @@ header {
 }
 
 .btns {
-	width: 100%;
+	font-size: 1.1em;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -30em;
+	bottom: -40%;
 	gap: 1em;
 }
 
@@ -165,14 +172,16 @@ header {
 	background-color: #35373d;
 	color: whitesmoke;
 	font-size: 0.8em;
+	cursor: pointer;
 }
 
 .fa-angle-down {
-	color: whitesmoke;
+	color: rgb(213, 20, 20);
 	animation: bounce;
-	animation-duration: 3s;
-	animation-delay: 1s;
+	animation-duration: 5s;
+	animation-delay: 5s;
 	animation-iteration-count: infinite; /*To let animation repeat*/
+	cursor: pointer;
 }
 
 .existing-inventory {
@@ -181,6 +190,7 @@ header {
 	padding: 0.2em;
 	background-color: #e3dfdd;
 	color: black;
+	cursor: pointer;
 }
 
 .model-s-specs {
@@ -195,7 +205,7 @@ header {
 	color: whitesmoke;
 	padding: 0.3em;
 	font-size: 3em;
-	font-weight: bold;
+	font-weight: lighter;
 }
 
 .plaid {
@@ -211,7 +221,8 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -60%;
+	bottom: -30%;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 table {
@@ -238,6 +249,7 @@ button,
 	font-size: 0.7em;
 	padding: 0.5em;
 	font-weight: bolder;
+	cursor: pointer;
 }
 
 @media screen and (min-width: 350px) {
@@ -338,9 +350,10 @@ button,
 
 @media screen and (min-width: 700px) {
 	.btns {
+		font-size: 1.2em;
 		gap: 5em;
 		position: relative;
-		bottom: -60%;
+		bottom: -40%;
 	}
 }
 
@@ -359,7 +372,7 @@ button,
 		flex-direction: row;
 		color: whitesmoke;
 		position: relative;
-		bottom: -40%;
+		bottom: -30%;
 	}
 }
 
