@@ -198,6 +198,7 @@ header {
 	background-image: url("https://i.gifer.com/6h6.gif");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	background-size: cover;
 	height: 100vh;
 }
@@ -258,9 +259,6 @@ button,
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-}
-
-.history-modelS {
 	padding: 1em;
 	color: whitesmoke;
 	font-family: "Old Standard TT", serif;
