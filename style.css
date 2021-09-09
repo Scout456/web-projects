@@ -274,6 +274,32 @@ button,
 	font-weight: lighter;
 }
 
+.model-x {
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/da705069-91b5-41cb-86f3-86a585c6fdf3/bvlatuR/std/2880x1800/MX-Hero-Desktop");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.model--x {
+	color: black;
+	font-size: 3em;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+
+.touchles,
+.online {
+	color: black;
+}
+
+.touchles:hover {
+	color: gray;
+}
+
+.touchles {
+	text-decoration: underline;
+}
+
 @media screen and (min-width: 350px) {
 	.dropdown {
 		left: 48%;
