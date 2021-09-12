@@ -224,7 +224,7 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -30%;
+	bottom: -20em;
 }
 
 table {
@@ -286,6 +286,7 @@ button,
 	background-image: url("https://media4.giphy.com/media/f1ilU6Cphqogw/giphy.gif");
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	height: 100vh;
 }
 .model--x {
@@ -293,6 +294,18 @@ button,
 	font-size: 3em;
 	letter-spacing: 2px;
 	font-weight: lighter;
+}
+.X-model {
+	color: black;
+	padding: 0.3em;
+	font-size: 3em;
+	font-weight: lighter;
+}
+
+.plaid-x {
+	color: black;
+	font-size: 1.5em;
+	letter-spacing: 2px;
 }
 
 .touchles,
@@ -499,9 +512,18 @@ button,
 
 @media screen and (min-width: 700px) {
 	.model-x-specs {
-		background-image: url("https://media4.giphy.com/media/W6dorQn7tpRytTYmch/200.gif");
+		background-image: url("https://cdnblob.fastly.carvana.io/2000558766/edo-cleaned-floor.gif");
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-attachment: fixed;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.X-model,
+	.plaid-x {
+		color: black;
+		font-size: 3em;
 	}
 }
