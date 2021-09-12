@@ -224,7 +224,7 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -20em;
+	bottom: -40%;
 }
 
 table {
@@ -319,6 +319,16 @@ button,
 
 .touchles {
 	text-decoration: underline;
+}
+
+.X-perform {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	position: relative;
+	bottom: -40%;
 }
 
 @media screen and (min-width: 350px) {
@@ -443,7 +453,7 @@ button,
 		flex-direction: row;
 		color: whitesmoke;
 		position: relative;
-		bottom: -30%;
+		bottom: -40%;
 	}
 }
 
@@ -523,7 +533,16 @@ button,
 @media screen and (min-width: 700px) {
 	.X-model,
 	.plaid-x {
-		color: black;
+		color: rgb(162, 33, 33);
 		font-size: 3em;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.X-perform {
+		flex-direction: row;
+		color: whitesmoke;
+		position: relative;
+		bottom: -40%;
 	}
 }
