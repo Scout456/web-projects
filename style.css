@@ -281,6 +281,13 @@ button,
 	background-size: cover;
 	height: 100vh;
 }
+
+.model-x-specs {
+	background-image: url("https://media4.giphy.com/media/f1ilU6Cphqogw/giphy.gif");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
 .model--x {
 	color: black;
 	font-size: 3em;
@@ -487,5 +494,14 @@ button,
 		position: relative;
 		bottom: -55%;
 		gap: 5em;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.model-x-specs {
+		background-image: url("https://media4.giphy.com/media/W6dorQn7tpRytTYmch/200.gif");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
