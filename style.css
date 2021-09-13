@@ -561,8 +561,10 @@ button,
 
 @media screen and (min-width: 700px) {
 	.model-x {
-		background-image: url("https://i.redd.it/guqxe997bdn11.gif");
+		background-image: url("https://cdn.wallpapersafari.com/28/62/rlyzNs.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
+		height: 100vh;
+		background-size: cover;
 	}
 }
