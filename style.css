@@ -224,7 +224,7 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -40%;
+	bottom: -35%;
 }
 
 table {
@@ -276,7 +276,7 @@ button,
 }
 
 .model-x {
-	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/da705069-91b5-41cb-86f3-86a585c6fdf3/bvlatuR/std/2880x1800/MX-Hero-Desktop");
+	background-image: url("https://cdn.shopify.com/s/files/1/0043/8471/8938/products/160443105956611262.jpg?v=1604431068");
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
@@ -328,7 +328,19 @@ button,
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -40%;
+	bottom: -35%;
+}
+
+.history-modelX {
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/535/996/5/clouds-white-tesla-falcon-model-x-hd-wallpaper-preview.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	padding: 1em;
+	color: whitesmoke;
+	font-family: "Old Standard TT", serif;
+	font-size: 0.7em;
 }
 
 @media screen and (min-width: 350px) {
@@ -453,7 +465,7 @@ button,
 		flex-direction: row;
 		color: whitesmoke;
 		position: relative;
-		bottom: -40%;
+		bottom: -35%;
 	}
 }
 
@@ -515,7 +527,7 @@ button,
 		align-items: center;
 		align-content: center;
 		position: relative;
-		bottom: -55%;
+		bottom: -50%;
 		gap: 5em;
 	}
 }
@@ -543,6 +555,14 @@ button,
 		flex-direction: row;
 		color: whitesmoke;
 		position: relative;
-		bottom: -40%;
+		bottom: -35%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.model-x {
+		background-image: url("https://i.redd.it/guqxe997bdn11.gif");
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 }
