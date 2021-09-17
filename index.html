@@ -183,7 +183,7 @@ The Tesla Model S is an all-electric five-door liftback produced by Tesla, Inc. 
              </div>
           <div class="dignity-health">
             <nav class="nav-wrapper">
-              <a href="#"><img src="images/dignity-icon.jpg" class="icon"></a>
+              <a href="#"><img src="images/dignity-icon.jpg" class="iconD"></a>
              <form class="example" action="action_page.php">       
               <input type="text" placeholder="Search.." name="search">
               <button class="search-icon" type="submit"><i class="fa fa-search fa-2x"></i></button> 
@@ -191,17 +191,34 @@ The Tesla Model S is an all-electric five-door liftback produced by Tesla, Inc. 
              <div id="mySidenav" class="sidenav">
                <a href="javascript:void(0)" class="closebtn"
                onclick="closeNav()">&times;</a>
-                 <a href="#">About</a>
-                 <a href="#">Services</a>
-                 <a href="#">Clients</a>
-                 <a href="#">Contact</a>
+                 <a href="#">Get care</a>
+                 <a href="#">Conditions & treatments</a>
+                 <a href="#">Patient resources</a>
+                 <a href="#">Our locations</a>
                  </div>
-                 <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776;</span>
-
-             
-            </nav>
+                 <span class="hamburger" style="font-size:25px;cursor:pointer" onclick="openNav()"> &#9776;</span>
+             </nav>
+             <div class="hospital-container">
+             <label id="crmc">Chandler Regional Medical Center</label>
+             <select id="hospital-dropdown" name="services"> 
+               <option value="#"></option>
+               <option value="service">Services</option>
+               <option value="patients">Patients & visitors</option>
+               <option value="events">Classes & events</option>
+               <option value="aboutUs">About us</option>
+               <option value="contact">Contact us</option>
+               <option value="location">Locations</option>
+              </select>
+              </div>
+              <nav class="chandler-nav">
+                <a href="hosp-home">Home ></a>
+                <a href="hosp-home">Arizona ></a>
+                <a href="hosp-home">Locations > </a>
+                <a href="hosp-home">Chandler Regional Medical Center</a>
+              </nav>
+              <div class="HospitalPic"></div>
+             </div>
           </div>
-      </div>
     <script src="index.js"></script>
   </body>
 </html>
