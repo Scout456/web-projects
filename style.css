@@ -247,7 +247,7 @@ header {
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -35%;
+	bottom: -25%;
 }
 
 table {
@@ -351,7 +351,7 @@ button,
 	align-items: center;
 	align-content: center;
 	position: relative;
-	bottom: -35%;
+	bottom: -25%;
 }
 
 .history-modelX {
@@ -366,10 +366,8 @@ button,
 	font-size: 0.7em;
 }
 /*Dignity Health Icon and name*/
-.icon {
+.iconD {
 	width: 60%;
-	position: relative;
-	left: 2em;
 }
 
 * {
@@ -417,6 +415,7 @@ form.example::after {
 	justify-content: center;
 	align-items: center;
 	align-items: center;
+	border: 1px lightgray solid;
 }
 
 .sidenav {
@@ -452,10 +451,46 @@ form.example::after {
 	font-size: 36px;
 	margin-left: 50px;
 }
-
+/*hamburger icon for dropdown menu*/
 .hamburger {
 	color: #c85200;
+	margin-right: 0.3em;
 }
+
+.hospital-container {
+	background-color: #e6dddd;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+/*Label drop down menu*/
+label {
+	font-size: 0.8em;
+	padding: 0.4em;
+}
+/*catagories in select drop down menu*/
+select {
+	border: none;
+	width: 10%;
+	background-color: #e6dddd;
+}
+
+.chandler-nav {
+	font-size: 0.5em;
+	padding: 0.5em;
+}
+
+.HospitalPic {
+	background-image: url("images/chandler-pic.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	z-index: 1;
+}
+
+/*Media Queries------------------------------------------*/
 
 @media screen and (max-height: 450px) {
 	.sidenav {
@@ -689,5 +724,18 @@ form.example::after {
 		background-repeat: no-repeat;
 		height: 100vh;
 		background-size: cover;
+	}
+}
+
+/*Dignity health media query*/
+@media screen and (min-width: 650px) {
+	.iconD {
+		width: 40%;
+	}
+	label {
+		font-size: 1em;
+	}
+	select {
+		width: 60%;
 	}
 }
