@@ -420,12 +420,12 @@ form.example::after {
 
 .sidenav {
 	height: 100%;
-	width: 0;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #111;
+	background-color: white;
+	color: #554d56;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
@@ -439,10 +439,23 @@ form.example::after {
 	display: block;
 	transition: 0.3s;
 }
-
-.sidenav a:hover {
-	color: #f1f1f1;
+/*parent container for .icon-dignity*/
+.dignity-icon {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	right: 1em;
+	bottom: 1em;
 }
+
+/*Icon dignity health in slide out memu*/
+.icon-dignity {
+	width: 50%;
+}
+
+/*.sidenav a:hover {
+	color: #f1f1f1;
+}*/
 
 .sidenav .closebtn {
 	position: absolute;
@@ -468,6 +481,7 @@ form.example::after {
 label {
 	font-size: 0.8em;
 	padding: 0.4em;
+	color: #554d56;
 }
 /*catagories in select drop down menu*/
 select {
@@ -476,9 +490,10 @@ select {
 	background-color: #e6dddd;
 }
 
-.chandler-nav {
+.chandler-nav a {
 	font-size: 0.5em;
-	padding: 0.5em;
+	padding-left: 0.5em;
+	color: #554d56;
 }
 
 .HospitalPic {
@@ -736,6 +751,6 @@ select {
 		font-size: 1em;
 	}
 	select {
-		width: 60%;
+		width: 65%;
 	}
 }
