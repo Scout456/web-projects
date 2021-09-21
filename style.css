@@ -370,10 +370,6 @@ button,
 	width: 60%;
 }
 
-.closebtn {
-	color: #c85200;
-}
-
 * {
 	box-sizing: border-box;
 }
@@ -439,7 +435,7 @@ form.example::after {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #818181;
+	color: #c85200;
 	display: block;
 	transition: 0.3s;
 }
