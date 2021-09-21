@@ -370,6 +370,10 @@ button,
 	width: 60%;
 }
 
+.closebtn {
+	color: #c85200;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -464,16 +468,45 @@ form.example::after {
 /*search icon in slide out menu*/
 .fa-search {
 	position: absolute;
-	left: 23em;
+	left: 80%;
 	padding-top: 14px;
 }
-/*Using border radius on search bar*/
-input[type="text"] {
+/*Using border radius on search bar in slide out menu*/
+
+.iconS[type="text"] {
 	border-radius: 20px;
 	width: 90%;
 	height: 12vh;
 	padding-left: 1em;
 	border: 2px solid #76777a;
+}
+
+.iconS:hover {
+	border-color: #0079d0;
+}
+
+/* date input in slide out menu*/
+
+#date[type="text"] {
+	border-radius: 20px;
+	width: 90%;
+	height: 12vh;
+	padding-left: 1em;
+	border: 2px solid #0079d0;
+	text-align: center;
+	color: #0079d0;
+	cursor: pointer;
+}
+/* changes color of place holder in schedule on appointment on slide out menu*/
+
+#date::placeholder {
+	color: #0079d0;
+	font-weight: bold;
+	opacity: 1;
+}
+
+a.hello {
+	color: #c85200;
 }
 
 /*.sidenav a:hover {
