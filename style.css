@@ -430,15 +430,22 @@ form.example::after {
 	transition: 0.5s;
 	padding-top: 60px;
 }
-
+/* slide out menu icon and font style*/
 .sidenav a {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
-	color: #c85200;
+	color: #3b444b;
 	display: block;
 	transition: 0.3s;
 }
+/*X icon to close slide out menu*/
+.times {
+	color: #c85200;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
 /*parent container for .icon-dignity*/
 .dignity-icon {
 	display: flex;
