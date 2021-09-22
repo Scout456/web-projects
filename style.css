@@ -416,10 +416,13 @@ form.example::after {
 	align-items: center;
 	align-items: center;
 	border: 1px lightgray solid;
+	transition: margin-left 0.5s;
+	padding: 10px;
 }
 
 .sidenav {
 	height: 100%;
+	width: 0;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -461,36 +464,36 @@ form.example::after {
 }
 
 /*parent conatiner for input in form*/
-.schedule {
+/*.schedule {
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	left: 1.5em;
-}
+}*/
 
 /*search icon in slide out menu*/
-.search-icon {
+/*.search-icon {
 	position: absolute;
 	left: 80%;
 	padding-top: 14px;
 	font-size: 1.2em;
-}
+}*/
 /*Using border radius on search bar in slide out menu*/
-
+/*
 .iconS[type="text"] {
 	border-radius: 20px;
 	width: 90%;
 	height: 12vh;
 	padding-left: 1em;
 	border: 2px solid #76777a;
-}
+}*/
 
 .iconS:hover {
 	border-color: #0079d0;
 }
 
 /* date input in slide out menu*/
-
+/*
 #date[type="text"] {
 	border-radius: 20px;
 	width: 90%;
@@ -500,18 +503,22 @@ form.example::after {
 	text-align: center;
 	color: #0079d0;
 	cursor: pointer;
-}
+}*/
 /* changes color of place holder in schedule on appointment on slide out menu*/
-
+/*
 #date::placeholder {
 	color: #0079d0;
 	font-weight: bold;
 	opacity: 1;
-}
+}*/
 
-a.hello {
+/*a.hello {
 	color: #c85200;
-}
+}*/
+
+/*.login {
+	border-radius: 15px 15px;
+}*/
 
 /*.sidenav a:hover {
 	color: #f1f1f1;
@@ -531,28 +538,32 @@ a.hello {
 }
 
 .hospital-container {
-	background-color: #e6dddd;
-	height: 10vh;
+	background-color: #f5f5f5;
+	height: 15vh;
 	display: flex;
 	align-items: center;
+	padding: 2em;
 }
 
 /*Label drop down menu*/
+/*
 label {
 	font-size: 0.8em;
 	padding: 0.4em;
 	color: #554d56;
-}
+}*/
 /*catagories in select drop down menu*/
+/*
 select {
 	border: none;
 	width: 10%;
 	background-color: #e6dddd;
-}
+}*/
 
 .chandler-nav a {
-	font-size: 0.5em;
-	padding-left: 0.5em;
+	font-size: 0.8em;
+	position: relative;
+	left: 2.2em;
 	color: #554d56;
 }
 
@@ -562,6 +573,7 @@ select {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 100vh;
+	margin-top: 2em;
 	z-index: 1;
 }
 
