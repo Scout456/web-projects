@@ -469,10 +469,11 @@ form.example::after {
 }
 
 /*search icon in slide out menu*/
-.fa-search {
+.search-icon {
 	position: absolute;
 	left: 80%;
 	padding-top: 14px;
+	font-size: 1.2em;
 }
 /*Using border radius on search bar in slide out menu*/
 
