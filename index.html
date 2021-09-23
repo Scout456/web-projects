@@ -182,34 +182,30 @@ The Tesla Model S is an all-electric five-door liftback produced by Tesla, Inc. 
                <p class="historyS">In 2013, the Model S became the first electric car to top the monthly new-car-sales ranking in any country, leading twice in Norway, in September and December 2013[13][14][15][16] and in Denmark in December 2015.[17] Sales passed 250,000 units in September 2018.[18][19][20][21] The Model S was the top-selling plug-in electric car worldwide in 2015 and 2016, although it was later surpassed by the Model 3.[22][23][24]</p>
              </div>
           <div class="dignity-health">
-            <nav class="nav-wrapper">
-              <a href="#"><img src="images/dignity-icon.jpg" class="iconD"></a>
-             <form class="example" action="action_page.php">       
-              <input type="text" placeholder="Search.." name="search">
-              <button class="search-icon" type="submit"><i class="fa fa-search fa-2x"></i></button> 
-             </form>    
-             <div id="mySidenav" class="sidenav">
-               <a href="javascript:void(0)" class="closebtn"
-               onclick="closeNav()"><div class="times">&times;</div></a>
-               <div class="dignity-icon">
-                 <a href="#"><img src="images/dignity-icon.jpg" class="icon-dignity"></a>
-                 </div>
-               <form class="schedule">
-                 <div class="search-icon">
-                <i class="fa fa-search"></i>
-                </div>
-                 <input class="iconS" type="text" placeholder="Search" name="search"><br/>
-                <input id="date" type="text" placeholder="Schedule an appoinment" name="appoinment">
-                </form>
-                 <a href="#">Get care</a>
-                 <a href="#">Conditions & treatments</a>
-                 <a href="#">Patient resources</a>
-                 <a href="#">Our locations</a>
-                 <a href="#" class="hello">Hello humankindness</a>
-                 <button class="login">Log in</button>
-                 </div>
-                 <span class="hamburger" style="font-size:25px;cursor:pointer" onclick="openNav()"> &#9776;</span>
-             </nav>
+            <header class="dignity-header">
+            <img src="images/dignity-icon.jpg" class="iconD">
+            <div class="sb-example-1">
+         <div class="search">
+            <input type="text" class="searchTerm" placeholder="Search">
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+           </button>
+          <span class="ham-icon" onclick="openNav()">&#9776; <span class="menu"> MENU</span>
+         </div>
+         <nav>
+           <div id="mySidenav" class="sidenav">
+           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           <a href="#">About</a>
+           <a href="#">Services</a>
+            <a href="#">Clients</a>
+          <a href="#">Contact</a>
+         </div>
+         </nav>
+      </div>
+      </header>
+          
+          
+            </header>
              <div class="hospital-container">
              <label id="crmc">Chandler Regional Medical Center</label>
              <select id="hospital-dropdown" name="services"> 
