@@ -374,7 +374,7 @@ button,
 /*Dignity Health Icon and name*/
 .iconD {
 	width: 50%;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 
 /*search icon within button on header of DignityHealth------------------------------------*/
@@ -460,6 +460,77 @@ button,
 	font-size: 36px;
 	margin-left: 50px;
 }
+/* main ccontainer for chandler regional medical center dropdown menu*/
+.hospital-container {
+	color: #554d56;
+	background-color: #f5f5f5;
+	display: flex;
+	padding: 1em;
+}
+/*Button for Down Arrow for dropdown menu---------------------------------------*/
+
+/* Dropdown Button */
+.dropbtn-hospital {
+	color: black;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-hospital {
+	position: relative;
+	left: 10%;
+	bottom: 0.7em;
+	display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-hospital-content {
+	display: none;
+	position: absolute;
+	right: 0;
+
+	background-color: #f1f1f1;
+	min-width: 300px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-hospital-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-hospital-content a:hover {
+	background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown-hospital:hover .dropdown-hospital-content {
+	display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-hospital:hover .dropbtn-hospital {
+	color: #dc925e;
+}
+/*--------------------------------------------------------------------------*/
+/* main container below chandler regional medicaL center-----------------------------*/
+.chandler-nav {
+	font-size: 0.7em;
+	position: relative;
+	top: 1em;
+	left: 1em;
+}
+
+/*anchors below Chandler regional Medical Center*/
+.chandler-nav a {
+	background-color: #f5f5f5;
+	color: #554d56;
+}
+
 /*--------------------------------------------------------------------------*/
 .HospitalPic {
 	background-image: url("images/chandler-pic.jpeg");
