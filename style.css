@@ -365,17 +365,24 @@ button,
 	font-family: "Old Standard TT", serif;
 	font-size: 0.7em;
 }
+.dignity-health {
+	position: relative;
+}
+
 /* main container for header in dignity health*/
 .dignity-header {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
+
+	position: relative;
 	padding-right: 2em;
 }
 /*Dignity Health Icon and name*/
 .iconD {
 	width: 50%;
 	padding-bottom: 1em;
+	padding-left: 0.5em;
 }
 
 /*search icon within button on header of DignityHealth------------------------------------*/
@@ -464,29 +471,39 @@ button,
 /* main ccontainer for chandler regional medical center dropdown menu*/
 .hospital-container {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
+
 	padding-right: 2em;
 	color: #554d56;
 	background-color: #f5f5f5;
 	padding: 1em;
+}
+/* for chandler regional medical center text*/
+.crmc {
+	padding-left: 0.2em;
 }
 
 /*Button for Down Arrow for dropdown menu---------------------------------------*/
 
 /* Dropdown Button */
 .dropbtn-hospital {
+	position: relative;
 	color: black;
 	padding: 16px;
 	font-size: 16px;
 	border: none;
 }
+/* Controls position of down arrow icon*/
+.down-arrow,
+.fa-chevron-down {
+	position: absolute;
+	left: 0.5em;
+	bottom: 0.5em;
+}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown-hospital {
-	position: relative;
-	left: 10%;
-	bottom: 0.7em;
 	display: inline-block;
 }
 
@@ -526,8 +543,11 @@ button,
 .chandler-nav {
 	font-size: 0.7em;
 	position: relative;
-	top: 1em;
-	left: 1em;
+}
+
+.anchors-hospital {
+	position: absolute;
+	left: 2em;
 }
 
 /*anchors below Chandler regional Medical Center*/
