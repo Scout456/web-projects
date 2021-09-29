@@ -44,6 +44,7 @@ function myFunction() {
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   
+  
   if (!event.target.matches('.dropbtn-hospital')) {
     var dropdowns = document.getElementsByClassName("down-arrow");
     var i;
@@ -56,9 +57,27 @@ window.onclick = function(event) {
   }
 }
 
+  /*Changes background color of Chandler regional medical center when down arrow clicked*/
+  function start() {
+    var submit = document.getElementById("down-arrow");
+    submit.addEventListener("click", toggle);
+  };
 
-/*
-function myFunction(){
+  function toggle() {
+    var color = document.getElementById("hospital-container");
+
+    if(color.style.backgroundColor==='orange')
+      color.style.backgroundColor='';
+    else
+    color.style.backgroundColor = "orange";
+
+  };
+
+  start();
+
+
+
+/*function myFunction(){
   document.getElementById("hospital-container").style.backgroundColor = "red";
 }*/
 /*
