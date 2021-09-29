@@ -18,10 +18,53 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }  
 
+/*Slide opens menu*/
 function openNav(){
-  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("mySidenav").style.width = "100%";
 }
 
 function closeNav(){
   document.getElementById("mySidenav").style.width = "0";
 }
+
+
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+
+function myFunction() {
+  document.getElementById("dropdown-hospital-content").classList.toggle("show");
+
+  }
+
+
+
+
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  
+  if (!event.target.matches('.dropbtn-hospital')) {
+    var dropdowns = document.getElementsByClassName("down-arrow");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+/*
+function myFunction(){
+  document.getElementById("hospital-container").style.backgroundColor = "red";
+}*/
+/*
+ document.getElementById("dropbtn-hospital").onclick = function(){
+  document.getElementById("hospital-container").style.backgroundColor = "#CE661D";
+}*/
+
+
+  
