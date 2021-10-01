@@ -427,13 +427,14 @@ button,
 	width: 0;
 	position: fixed;
 	z-index: 1;
-	top: 0;
+	top: 6em; /* Ajust the top of slide out menu*/
 	left: 0;
-	background-color: #111;
+	background-color: white;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
-	text-align: center;
+
+	/*text-align: center;*/
 }
 /*hamburger icon*/
 .ham-icon {
@@ -449,16 +450,28 @@ button,
 }
 
 .sidenav a {
-	padding: 8px 8px 8px 32px;
+	padding: 14px 14px 14px 32px;
 	text-decoration: none;
-	font-size: 25px;
-	color: #818181;
+	font-size: 1em;
+	color: #4d525a;
+	background-color: white;
 	display: block;
 	transition: 0.3s;
 }
 
 .sidenav a:hover {
-	color: #f1f1f1;
+	color: #645f5f;
+}
+/* Move the hamburger drop down menu to the right*/
+.anchor-hospital a {
+	border-bottom: 1px solid rgb(194, 191, 191);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: flex-start;
+	align-items: flex-start;
+	position: relative;
+	top: 5em;
 }
 
 .sidenav .closebtn {
@@ -468,6 +481,46 @@ button,
 	font-size: 36px;
 	margin-left: 50px;
 }
+/* Begining for the search bar and icon*/
+.sb-example-hospital .search-d {
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+
+.sb-example-hospital .searchTerm-d {
+	width: 100%;
+	border: 2px solid lightgray;
+	border-right: none;
+	padding: 15px;
+	border-radius: 20px 20px;
+	outline: none;
+	color: #9dbfaf;
+}
+
+.sb-example-hospital .searchTerm-d:focus {
+	color: black;
+}
+
+.sb-example-hospital .searchButton-d {
+	width: 40px;
+	height: 30px;
+	/*border-bottom: 2px solid lightgray;
+	border-top: 2px solid lightgray;*/
+
+	background: white;
+	text-align: center;
+	color: #76777a;
+	/*border-radius: 0 5px 5px 0;*/
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	right: 1em;
+	top: 0.2em;
+}
+
+/* End of style for hamburger drop down search icon bar-------------------------------------------*/
+
 /* main ccontainer for chandler regional medical center dropdown menu*/
 #hospital-container {
 	display: flex;
