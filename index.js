@@ -65,15 +65,19 @@ window.onclick = function(event) {
 
   function toggle() {
     var color = document.getElementById("hospital-container");
-
+     
     if(color.style.backgroundColor==='orange')
       color.style.backgroundColor='';
+       
     else
     color.style.backgroundColor = "orange";
-
+     
+  
   };
 
   start();
+
+   
 
 
 
