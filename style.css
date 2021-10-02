@@ -481,27 +481,31 @@ button,
 	font-size: 36px;
 	margin-left: 50px;
 }
-/* Begining for the search bar and icon*/
+/* Begining for the search bar and icon on hamburger slide out menu*/
+/*Moves and adjust the size on the search button*/
 .sb-example-hospital .search-d {
 	width: 100%;
 	position: relative;
 	display: flex;
+	justify-content: center;
 }
 
 .sb-example-hospital .searchTerm-d {
-	width: 100%;
+	width: 90%;
 	border: 2px solid lightgray;
-	border-right: none;
+	/*border-right: none;*/
 	padding: 15px;
 	border-radius: 20px 20px;
-	outline: none;
+	/*outline: none;*/
 	color: #9dbfaf;
+	position: absolute;
+	top: 1%;
 }
 
 .sb-example-hospital .searchTerm-d:focus {
 	color: black;
 }
-
+/* Moves and adjust size on the search icon*/
 .sb-example-hospital .searchButton-d {
 	width: 40px;
 	height: 30px;
@@ -513,9 +517,10 @@ button,
 	color: #76777a;
 	/*border-radius: 0 5px 5px 0;*/
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 1.2em;
+	height: 0.5em;
 	position: absolute;
-	right: 1em;
+	right: 2.2em;
 	top: 0.2em;
 }
 
@@ -889,6 +894,7 @@ button,
 		left: 50%;
 		display: flex;
 	}
+	/*Allows size of search button and position*/
 	.sb-example-1 .searchTerm {
 		position: absolute;
 		left: -14em;
@@ -922,7 +928,7 @@ button,
 		border-color: blue;
 	}
 }
-
+/* Allows poition of the search icon beside hamburger menu icon*/
 @media screen and (min-width: 700px) {
 	.sb-example-1 .searchButton {
 		position: absolute;
