@@ -891,13 +891,13 @@ button,
 	}
 	.sb-example-1 .searchTerm {
 		position: absolute;
-		left: -11em;
-		top: 1em;
-		width: 10em;
+		left: -14em;
+		top: 0.6em;
+		width: 12em;
 		height: 2em;
 		border: 1px solid#53565A;
-		padding-left: 1em;
-		border-radius: 15px 15px;
+		padding: 0.5em;
+		border-radius: 20px 20px;
 		/*outline: none;*/
 		color: #9dbfaf;
 	}
@@ -920,5 +920,15 @@ button,
 @media screen and (min-width: 700px) {
 	.sb-example-1 .searchTerm:hover {
 		border-color: blue;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.sb-example-1 .searchButton {
+		position: absolute;
+		right: 1.5em;
+		top: 0.7em;
+		font-size: 1em;
+		height: 2em;
 	}
 }
