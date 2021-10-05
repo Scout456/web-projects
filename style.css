@@ -427,7 +427,7 @@ button,
 	width: 0;
 	position: fixed;
 	z-index: 1;
-	top: 6em; /* Ajust the top of slide out menu*/
+	top: 0; /* Ajust the top of slide out menu*/
 	left: 0;
 	background-color: white;
 	overflow-x: hidden;
@@ -436,6 +436,7 @@ button,
 
 	/*text-align: center;*/
 }
+
 /*hamburger icon*/
 .ham-icon {
 	font-size: 2em;
@@ -478,13 +479,27 @@ button,
 	position: absolute;
 	top: -0.5em;
 	right: 25px;
+	color: #c85200;
+	font-weight: bold;
 	font-size: 36px;
 	margin-left: 50px;
 }
+
+.main-label {
+	display: flex;
+	position: relative;
+	bottom: 2em;
+}
+
+.dignity-label,
+img {
+	width: 35%;
+}
+
 /* Begining for the search bar and icon on hamburger slide out menu*/
+
 /*Moves and adjust the size on the search button*/
 .sb-example-hospital .search-d {
-	width: 100%;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -527,10 +542,11 @@ button,
 
 /*The schedule appointment button on hamburger slide out menu--------------------------------*/
 .schedule-d {
-	width: 100%;
 	position: relative;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .scheduleD {
@@ -543,10 +559,11 @@ button,
 	width: 96%;
 	border: 2px solid #0079d0;
 	color: #0079d0;
-	padding: 1.5em;
+	padding: 15px;
+	font-size: 0.8em;
 	border-radius: 20px 20px;
 	position: absolute;
-	top: 4em;
+	top: 3em;
 }
 
 /* End of schedule appointment button for hamburger  slide out menu----------------------------------*/
@@ -647,13 +664,27 @@ button,
 	font-size: 0.7em;
 	position: relative;
 }
-
+/*Main container for hamburger slide out menu with icons beside font------------------------*/
 .anchors-hospital {
 	position: absolute;
 	left: 2em;
 	top: 0.5em;
 }
 
+.container-icons {
+	position: relative;
+}
+/* adjust the font beside icon in hamburger slide out menu*/
+.my-account {
+	position: absolute;
+	left: 3.4em;
+}
+
+/*Hamburger slide out menu with icons within buttons*/
+.btn-i .fas {
+	color: #c85200;
+}
+/*-------------------------------------------------------------------------------------*/
 /*anchors below Chandler regional Medical Center*/
 .chandler-nav a {
 	background-color: #f5f5f5;
@@ -669,6 +700,50 @@ button,
 	height: 100vh;
 	margin-top: 2em;
 	z-index: 1;
+}
+/* main container for content below hospital pic*/
+.arizona {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: flex-start;
+	position: relative;
+	padding: 1em;
+}
+
+h4 {
+	padding: 0.5em;
+	color: #626567;
+}
+/* large orange font chandler regional medical center*/
+.medical-center {
+	padding-left: 0.1em;
+	color: #c85200;
+	font-size: 2em;
+	font-weight: bold;
+}
+/* Quote under large orange font*/
+.happy-quote {
+	padding: 1em;
+	color: #626567;
+}
+/*Button learn more*/
+.main-learn-more {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 1em;
+}
+
+.learn-more {
+	border: 2px solid #005591;
+	background-color: #005591;
+	border-radius: 20px 20px;
+	font-size: 1em;
+	padding: 0.7em;
 }
 
 /*Media Queries------------------------------------------*/
