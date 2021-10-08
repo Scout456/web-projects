@@ -385,8 +385,7 @@ button,
 	padding-left: 0.5em;
 }
 
-/*search icon within button on header of DignityHealth------------------------------------*/
-
+/*Hambuger slide out menu buttons search and schedule an appointment*/
 .mainBtn {
 	position: relative;
 	display: flex;
@@ -406,6 +405,12 @@ input[type="submit"] {
 	width: 100%;
 }
 
+.icon-search {
+	position: absolute;
+	bottom: 3em;
+	right: 2em;
+}
+
 input[type="button"] {
 	border: 2px solid #005591;
 	color: #005591;
@@ -415,7 +420,7 @@ input[type="button"] {
 	font-size: 1em;
 	width: 100%;
 }
-
+/*-----------------------------End of slide out menu buttons---------------------------*/
 .sb-example-1 .search {
 	width: 5%;
 	position: relative;
@@ -1057,25 +1062,27 @@ h4 {
 	h4 {
 		padding-left: 1em;
 	}
-
-/* Main container for search and schdule an appointment buttons*/
+}
+/* Main container for search and schedule an appointment buttons*/
 @media screen and (min-width: 700px) {
-	.mainBtn{
+	.mainBtn {
 		display: flex;
 		flex-direction: row;
+		padding: 2px;
+		gap: 2px;
 	}
 
+	input[type="submit"] {
+		width: 300px;
+	}
+
+	input[type="button"] {
+		width: 300px;
+	}
+
+	.icon-search {
+		position: absolute;
+		right: 22em;
+		top: 0.8em;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-	
-
