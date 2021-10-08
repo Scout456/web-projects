@@ -6,8 +6,9 @@
 html {
 	scroll-behavior: smooth;
 }
-
+/*Arrow up to navigate to top of page*/
 #myBtn {
+	width: 10%;
 	display: none;
 	position: fixed;
 	bottom: 20px;
@@ -16,7 +17,7 @@ html {
 	font-size: 12px;
 	border: none;
 	outline: none;
-	background-color: red;
+	/*background-color: red;*/
 	color: white;
 	cursor: pointer;
 	padding: 10px;
@@ -24,9 +25,9 @@ html {
 }
 
 #myBtn:hover {
-	background-color: #555;
+	font-size: 2em;
 }
-
+/* End of up arrow to navigate to top of page*/
 /*main container*/
 .main {
 	display: flex;
@@ -751,11 +752,15 @@ h4 {
 }
 
 .learn-more {
-	border: 2px solid #005591;
 	background-color: #005591;
 	border-radius: 20px 20px;
 	font-size: 1em;
 	padding: 0.7em;
+	font-weight: lighter;
+}
+
+.learn-more:hover {
+	background-color: #0079d0;
 }
 
 /*Media Queries------------------------------------------*/
