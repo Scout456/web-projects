@@ -60,7 +60,6 @@ html {
 
 .name:hover {
 	color: #b5bdc7;
-	font-size: 2.4em;
 }
 /*Nav projects contact and about*/
 .one {
@@ -74,7 +73,6 @@ html {
 
 .one:hover {
 	color: black;
-	font-size: 2em;
 }
 /*Down angle icon */
 .tds-icon {
@@ -87,7 +85,44 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
+/*Container on top main page for picture and about info.*/
+.containerAbout-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	position: relative;
+}
+/*Picture of self*/
+.self-pic {
+	background-image: url("images/pic-self.png");
+	background-position: center;
+	background-position-y: -0.3em;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*border: 2px solid white;*/
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	bottom: 10em;
+}
+/*About card of self*/
+.about-self {
+	border: 2px solid green;
+	background-color: forestgreen;
+	opacity: 0.8;
+	width: 100px;
+	height: 100px;
+	font-size: 0.48em;
+	line-height: 1em;
+	color: white;
+	padding: 0.5em;
+	position: absolute;
+	bottom: 4em;
+}
+/*------------------------End of main top page pic and info of self.*/
 .projects {
 	text-align: center;
 	color: whitesmoke;
