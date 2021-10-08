@@ -387,12 +387,42 @@ button,
 
 /*search icon within button on header of DignityHealth------------------------------------*/
 
+.mainBtn {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: flex-end;
+	align-items: flex-end;
+}
+
+input[type="submit"] {
+	border: 2px solid lightgray;
+	color: rgb(148, 145, 145);
+	background-color: white;
+	border-radius: 20px 20px;
+	padding: 0.5em;
+	font-size: 1em;
+	width: 100%;
+}
+
+input[type="button"] {
+	border: 2px solid #005591;
+	color: #005591;
+	background-color: white;
+	border-radius: 20px 20px;
+	padding: 0.5em;
+	font-size: 1em;
+	width: 100%;
+}
+
 .sb-example-1 .search {
 	width: 5%;
 	position: relative;
 	left: 70%;
 	display: flex;
 }
+
 .sb-example-1 .searchTerm {
 	width: 5%;
 	border: 3px solid#53565A;
@@ -403,6 +433,7 @@ button,
 	outline: none;
 	color: #9dbfaf;
 }
+
 .sb-example-1 .searchTerm:focus {
 	color: #53565a;
 }
@@ -418,6 +449,7 @@ button,
 	cursor: pointer;
 	font-size: 20px;
 }
+
 /*-----------------------------------------------------------------------------*/
 
 /* hamburger menu and slideout-------------------------------------------------*/
@@ -507,9 +539,10 @@ img {
 	align-items: center;
 	align-content: center;
 }
-
-.sb-example-hospital .searchTerm-d {
-	width: 86%;
+/*Adjust the search button*/
+/*.sb-example-hospital*/
+.searchTerm-d {
+	width: 90%;
 	border: 2px solid lightgray;
 	/*border-right: none;*/
 	padding: 15px;
@@ -523,7 +556,7 @@ img {
 .sb-example-hospital .searchTerm-d:focus {
 	color: black;
 }*/
-/* Moves and adjust size on the search icon*/
+/* Moves and adjust size of the search icon*/
 .sb-example-hospital .searchButton-d {
 	width: 40px;
 	height: 30px;
@@ -546,10 +579,6 @@ img {
 /*The schedule appointment button on hamburger slide out menu--------------------------------*/
 .schedule-d {
 	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
 }
 
 .scheduleD {
@@ -557,9 +586,10 @@ img {
 	position: absolute;
 	top: 4.5em;
 }
-
+/*Adjust schedule an appointment button*/
+/*.sb-example-hospital*/
 .hospital-schedule {
-	width: 97%;
+	width: 98%;
 	border: 2px solid #0079d0;
 	color: #0079d0;
 	padding: 15px;
@@ -567,6 +597,7 @@ img {
 	border-radius: 20px 20px;
 	position: absolute;
 	top: 3em;
+	left: 0.3em;
 }
 
 /* End of schedule appointment button for hamburger  slide out menu----------------------------------*/
@@ -610,18 +641,6 @@ img {
 	display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
-/*#dropdown-hospital-content {
-	display: none;
-	position: absolute;
-	right: 0;
-
-	background-color: #f1f1f1;
-	min-width: 300px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
-}*/
-
 /* Links inside the dropdown */
 #dropdown-hospital-content a {
 	color: black;
@@ -645,21 +664,6 @@ img {
 	display: block;
 }
 
-/* Change color of dropdown links on hover */
-/*
-.dropdown-hospital-content a:hover {
-	background-color: #ddd;
-}*/
-/* Show the dropdown menu on hover */
-/*
-.dropdown-hospital:hover .dropdown-hospital-content {
-	display: block;
-}*/
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/*
-.dropdown-hospital:hover .dropbtn-hospital {
-	color: #dc925e;
-}*/
 /*--------------------------------------------------------------------------*/
 /* main container below chandler regional medicaL center-----------------------------*/
 .chandler-nav {
@@ -1053,13 +1057,25 @@ h4 {
 	h4 {
 		padding-left: 1em;
 	}
-	.hospital-schedule {
-		border-radius: 20px 20px;
-		padding: 1.2em;
+
+/* Main container for search and schdule an appointment buttons*/
+@media screen and (min-width: 700px) {
+	.mainBtn{
+		display: flex;
+		flex-direction: row;
 	}
-	.sb-example-hospital {
-		width: 200px;
-		float: right;
-		padding-right: 2em;
-	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+	
+
