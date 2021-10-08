@@ -77,6 +77,14 @@ window.onclick = function(event) {
 
   start();
 
+  
+
+
+
+
+
+
+
    
 
 
