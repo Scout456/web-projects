@@ -8,7 +8,7 @@ html {
 }
 /*Arrow up to navigate to top of page*/
 #myBtn {
-	width: 25%;
+	width: 100px;
 	display: none;
 	position: fixed;
 	bottom: 5px;
@@ -426,19 +426,19 @@ button,
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-content: flex-end;
-	align-items: flex-end;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
 input[type="submit"] {
+	width: 100%;
 	border: 2px solid lightgray;
 	color: rgb(148, 145, 145);
 	background-color: white;
 	border-radius: 20px 20px;
 	padding: 0.5em;
 	font-size: 1em;
-	width: 100%;
 }
 
 .icon-search {
@@ -448,13 +448,13 @@ input[type="submit"] {
 }
 
 input[type="button"] {
+	width: 100%;
 	border: 2px solid #005591;
 	color: #005591;
 	background-color: white;
 	border-radius: 20px 20px;
 	padding: 0.5em;
 	font-size: 1em;
-	width: 100%;
 }
 /*-----------------------------End of slide out menu buttons---------------------------*/
 .sb-example-1 .search {
@@ -1108,6 +1108,10 @@ h4 {
 	.mainBtn {
 		display: flex;
 		flex-direction: row;
+		justify-content: flex-end;
+		align-content: flex-end;
+		align-items: flex-end;
+		position: relative;
 		padding: 2px;
 		gap: 2px;
 	}
@@ -1122,7 +1126,10 @@ h4 {
 
 	.icon-search {
 		position: absolute;
-		right: 22em;
+		right: 20em;
 		top: 0.8em;
+	}
+	#myBtn {
+		width: 100px;
 	}
 }
