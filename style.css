@@ -103,24 +103,24 @@ a {
 	background-repeat: no-repeat;
 	/*border: 2px solid white;*/
 	border-radius: 50%;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	position: absolute;
-	bottom: 10em;
+	bottom: 6.3em;
 }
 /*About card of self*/
 .about-self {
 	border: 2px solid green;
 	background-color: forestgreen;
 	opacity: 0.8;
-	width: 100px;
-
-	font-size: 0.48em;
+	width: 150px;
+	font-size: 0.5em;
+	word-spacing: 0.2em;
 	line-height: 1em;
 	color: white;
 	padding: 0.5em;
 	position: absolute;
-	bottom: 4em;
+	bottom: 1em;
 }
 /*------------------------End of main top page pic and info of self.*/
 .projects {
