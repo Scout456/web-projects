@@ -71,6 +71,8 @@ html {
 	color: black;
 }
 
+/* Start of picture of self on first page controls size and position of pic*/
+
 /*parent for .picture*/
 .pic-wrapper {
 	position: relative;
@@ -84,12 +86,14 @@ html {
 /*Pic of self*/
 .picture {
 	border: 2px solid blue;
-	border-radius: 50em;
-	width: 10em;
-	height: 10em;
+	border-radius: 50%;
+	width: 15em;
+	height: 15em;
 	position: absolute;
-	bottom: 10em;
+	bottom: 7em;
 }
+
+/*End of self picture controls size and posiion on pic*/
 
 /*Down angle icon */
 .tds-icon {
