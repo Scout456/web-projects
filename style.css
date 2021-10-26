@@ -798,10 +798,12 @@ h4 {
 	margin-right: auto;
 	background-color: white;
 	color: #140f4b;
+	padding: 0.5em;
 }
 
 ul li {
 	list-style-type: none;
+	padding: 0.5em;
 }
 
 /*Media Queries------------------------------------------*/
