@@ -87,10 +87,10 @@ html {
 .picture {
 	border: 2px solid blue;
 	border-radius: 50%;
-	width: 15em;
-	height: 15em;
+	width: 12em;
+	height: 12em;
 	position: absolute;
-	bottom: 7em;
+	bottom: 12em;
 }
 
 /*End of self picture controls size and posiion on pic*/
@@ -780,6 +780,21 @@ h4 {
 
 .learn-more:hover {
 	background-color: #0079d0;
+}
+
+/*Start of Medtronic section------------------------------------------------*/
+.main-medtronic ul {
+	background-color: #140f4b;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.medTronic {
+	margin-right: auto;
+	background-color: white;
+	color: #140f4b;
 }
 
 /*Media Queries------------------------------------------*/
