@@ -806,6 +806,13 @@ ul li {
 	padding: 0.5em;
 }
 
+.medtronic-two-person-pic {
+	background-image: url("images/medtronic-two-person.webp");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 /*Media Queries------------------------------------------*/
 
 @media screen and (min-width: 350px) {
