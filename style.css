@@ -786,15 +786,22 @@ h4 {
 .main-medtronic ul {
 	background-color: #140f4b;
 	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
 }
 
 .medTronic {
 	margin-right: auto;
 	background-color: white;
 	color: #140f4b;
+}
+
+ul li {
+	list-style-type: none;
 }
 
 /*Media Queries------------------------------------------*/
