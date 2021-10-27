@@ -213,16 +213,16 @@ The Tesla Model S is an all-electric five-door liftback produced by Tesla, Inc. 
           
         <div class="anchor-hospital">
           <div class="container-icons">
-          <a class="btn-i"><i class="fas fa-home"></i> <span class="my-account"> My account</span></a>
-          <a class="btn-i"><i class="fas fa-calendar-alt"></i> <span class="my-account"> My appointments </span></a>
-          <a class="btn-i"><i class="fas fa-user-md"></i> <span class="my-account">My care team</span> </a>
-          <a class="btn-i"><i class="fas fa-file-alt"></i> <span class="my-account">Pay my bill</span></a>
-          <a class="btn-i"><i class="fas fa-clipboard"></i> <span class="my-account"> My medical records</span></a>
+          <a class="btn-i" aria-label="my account link"><i class="fas fa-home"></i> <span class="my-account"> My account</span></a>
+          <a class="btn-i" aria-label="my appointments link"><i class="fas fa-calendar-alt"></i> <span class="my-account"> My appointments </span></a>
+          <a class="btn-i" aria-label="My care team link"><i class="fas fa-user-md"></i> <span class="my-account" aria-label="my care team link">My care team</span> </a>
+          <a class="btn-i" aria-label="pay my bill link"><i class="fas fa-file-alt"></i> <span class="my-account">Pay my bill</span></a>
+          <a class="btn-i" aria-label="my medical records link"><i class="fas fa-clipboard"></i> <span class="my-account"> My medical records</span></a>
           </div>
-           <a href="#">Get care</a>
-           <a href="#">Conditions and treatments</a>
-           <a href="#">Patient resources</a>
-           <a href="#">Our locations</a>
+           <a href="#" aria-label="get care link">Get care</a>
+           <a href="#" aria-label="conditions and treatments link">Conditions and treatments</a>
+           <a href="#" aria-label="patient resources link">Patient resources</a>
+           <a href="#" aria-label="our locations link">Our locations</a>
            </div>
          </div>
          </nav>
@@ -272,15 +272,23 @@ The Tesla Model S is an all-electric five-door liftback produced by Tesla, Inc. 
              <div class="main-medtronic">
                <nav>
                  <ul>
-                   <li class="medTronic">Medtronic</li>
+                   <li class="medTronic" aria-label="medtronic text">Medtronic</li>
                    <li class="med-search-icon" aria-label="search icon"><i class="fas fa-search"></i></li>
                    <li class="med-ham-icon" aria-label="hamburger icon"><i class="fas fa-bars"></i></li>
                  </ul>
                </nav>
-               <figure>
-                <div class="medtronic-two-person-pic"></div>
-               </figure>
+              
              </div>
+             <figure>
+               <img class="twoPerson-pic" src="images/medtronic-two-person.webp" alt="child on man's shoulders">
+             </figure>
+             <header class="medFirst-pic">
+               <h4 class="who-we-are">WHO WE ARE</h4>
+               <h1 class="extraOrd">Engineering the extraordinary</h1>
+               <p class="medtronic-hope">Inspiring hope with<br> groundbreaking healthcare<br>technology solutions for the<br>
+              most complex and challenging<br> conditions facing our world.</p>
+             </header>
+             <button class="seeHow">See how</button>
           </div>
           
     <script src="index.js"></script>
