@@ -809,19 +809,23 @@ ul li {
 	padding: 0.5em;
 }
 
-/* medtronic first pic with caption*/
+/*medtronic first pic with caption*/
+
+.medtronic-main {
+	width: 100%;
+}
 
 .twoPerson-pic {
 	width: 100%;
 }
 .medFirst-pic {
 	color: #4b477c;
-	text-align: start;
+
 	padding: 1em 0 0 1em;
 	line-height: 1.5em;
 }
 
-.extraOrd {
+.engineering-med {
 	line-height: 1.5em;
 	font-weight: lighter;
 }
@@ -833,8 +837,9 @@ ul li {
 	right: 0.5em;
 }
 
-.medtronic-hope {
-	padding-top: 1em;
+.medtronic-inspire-hope {
+	width: 100%;
+	padding-top: 0.3em;
 }
 
 .seeHow {
@@ -917,9 +922,9 @@ ul li {
 }
 
 @media screen and (min-width: 700px) {
-	h1,
-	.touchless,
-	p {
+	.model--s,
+	.order-0nline-for,
+	.touchless {
 		color: whitesmoke;
 	}
 }
