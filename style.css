@@ -798,6 +798,9 @@ h4 {
 	margin-right: auto;
 	background-color: white;
 	color: #140f4b;
+	border: 1px solid #140f4b;
+	font-weight: bold;
+	font-size: 1.2em;
 	padding: 0.5em;
 }
 
@@ -806,11 +809,42 @@ ul li {
 	padding: 0.5em;
 }
 
-.medtronic-two-person-pic {
-	background-image: url("images/medtronic-two-person.webp");
-	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
+/* medtronic first pic with caption*/
+
+.twoPerson-pic {
+	width: 100%;
+}
+.medFirst-pic {
+	color: #4b477c;
+	text-align: start;
+	padding: 1em 0 0 1em;
+	line-height: 1.5em;
+}
+
+.extraOrd {
+	line-height: 1.5em;
+	font-weight: lighter;
+}
+
+.who-we-are {
+	color: black;
+	font-weight: lighter;
+	position: relative;
+	right: 0.5em;
+}
+
+.medtronic-hope {
+	padding-top: 1em;
+}
+
+.seeHow {
+	border: 1px solid #4b477c;
+	border-radius: 20px 20px;
+	padding: 1em;
+	color: #4b477c;
+	position: relative;
+	left: 1em;
+	top: 0.5em;
 }
 
 /*Media Queries------------------------------------------*/
