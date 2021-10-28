@@ -880,7 +880,8 @@ footer {
 
 .footerList,
 .footerListTwo,
-.footerListThree {
+.footerListThree,
+.lastFooter {
 	color: white;
 	padding: 1em;
 	border-bottom: 1px solid white;
