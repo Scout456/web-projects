@@ -863,6 +863,19 @@ ul li {
 	padding-top: 2em;
 }
 
+/* Medtronic footer*/
+footer {
+	background-color: #140f4b;
+	margin-top: 2em;
+}
+
+.mainFooter {
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	border-bottom: 1px solid white;
+}
+
 /*Media Queries------------------------------------------*/
 
 @media screen and (min-width: 350px) {
