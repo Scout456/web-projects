@@ -878,7 +878,8 @@ footer {
 	border-bottom: 1px solid white;
 }
 
-.footerList {
+.footerList,
+.footerListTwo {
 	color: white;
 	padding: 1em;
 	border-bottom: 1px solid white;
