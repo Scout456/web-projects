@@ -872,7 +872,9 @@ footer {
 .mainFooter {
 	color: white;
 	display: flex;
+	height: 4em;
 	justify-content: space-evenly;
+	align-items: center;
 	border-bottom: 1px solid white;
 }
 
