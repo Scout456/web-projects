@@ -896,6 +896,10 @@ footer {
 	padding-left: 0.4em;
 }
 
+.privateState {
+	padding-top: 1em;
+}
+
 /*Media Queries------------------------------------------*/
 
 @media screen and (min-width: 350px) {
