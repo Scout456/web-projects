@@ -876,6 +876,12 @@ footer {
 	border-bottom: 1px solid white;
 }
 
+.footerList {
+	color: white;
+	padding: 1em;
+	border-bottom: 1px solid white;
+}
+
 /*Media Queries------------------------------------------*/
 
 @media screen and (min-width: 350px) {
