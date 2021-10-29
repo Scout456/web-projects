@@ -880,11 +880,17 @@ footer {
 
 .footerList,
 .footerListTwo,
-.footerListThree,
 .lastFooter {
 	color: white;
 	padding: 1em;
 	border-bottom: 1px solid white;
+}
+
+.footerListThree {
+	color: white;
+	padding: 1em;
+	border-width: 5px;
+	border-bottom-style: double;
 }
 
 .boldMedtronic {
