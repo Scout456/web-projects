@@ -1266,3 +1266,12 @@ footer {
 		top: 0.8em;
 	}
 }
+/*Medtronic footer social media content*/
+@media screen and (min-width: 700px) {
+	.mainFooter {
+		display: flex;
+		justify-content: flex-end;
+		gap: 2em;
+		padding-right: 1em;
+	}
+}
