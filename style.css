@@ -1280,6 +1280,12 @@ footer {
 	.footerList,
 	.footerListTwo,
 	.footerListThree {
-		border: none;
+		border-bottom: 1px solid white;
+	}
+	.privateState ul {
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		bottom: 3em;
 	}
 }
