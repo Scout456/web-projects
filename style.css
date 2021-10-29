@@ -911,12 +911,27 @@ footer {
 	padding-top: 1em;
 }
 
-.addressContainer {
+.addressContain {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 1em;
+	font-size: 1em;
 	color: white;
+	font-family: "Avenir Next World Regular", sans-serif;
+}
+
+.addressMed {
+	font-size: 0.8em;
+	padding-top: 0.5em;
 }
 
 .copyDate {
+	font-size: 0.7em;
 	color: white;
+	font-family: "Avenir Next World Regular", sans-serif;
+	padding-top: 3em;
 }
 
 /*Media Queries------------------------------------------*/
