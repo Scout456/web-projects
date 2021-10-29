@@ -1274,4 +1274,12 @@ footer {
 		gap: 2em;
 		padding-right: 1em;
 	}
+	.footerContain {
+		display: flex;
+	}
+	.footerList,
+	.footerListTwo,
+	.footerListThree {
+		border: none;
+	}
 }
