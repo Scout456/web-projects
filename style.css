@@ -884,6 +884,7 @@ footer {
 	color: white;
 	padding: 1em;
 	border-bottom: 1px solid white;
+	font-family: "Avenir Next World Regular", sans-serif;
 }
 
 .footerListThree {
@@ -891,15 +892,19 @@ footer {
 	padding: 1em;
 	border-width: 5px;
 	border-bottom-style: double;
+	font-family: "Avenir Next World Regular", sans-serif;
 }
 
 .boldMedtronic {
-	font-size: 3em;
+	font-size: 2em;
 	padding-left: 0.1em;
+	font-weight: bold;
+	font-family: "Avenir Next World Regular", sans-serif;
 }
 
 .engineExtra {
 	padding-left: 0.4em;
+	font-family: "Avenir Next World Regular", sans-serif;
 }
 
 .privateState {
