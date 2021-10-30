@@ -1280,12 +1280,17 @@ footer {
 	.footerList,
 	.footerListTwo,
 	.footerListThree {
+		width: 90%;
 		border-bottom: 1px solid white;
 	}
 	.privateState ul {
 		display: flex;
 		justify-content: flex-end;
 		position: relative;
-		bottom: 3em;
+		bottom: 1.5em;
+	}
+	.medEngine {
+		position: relative;
+		top: 1em;
 	}
 }
