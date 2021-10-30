@@ -1287,10 +1287,12 @@ footer {
 		display: flex;
 		justify-content: flex-end;
 		position: relative;
-		bottom: 1.5em;
+		bottom: 3em;
 	}
 	.medEngine {
 		position: relative;
-		top: 1em;
+	}
+	.lastFooter {
+		height: 4em;
 	}
 }
