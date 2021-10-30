@@ -1267,7 +1267,7 @@ footer {
 	}
 }
 /*Medtronic footer social media content*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 824px) {
 	.mainFooter {
 		display: flex;
 		justify-content: flex-end;
@@ -1294,5 +1294,19 @@ footer {
 	}
 	.lastFooter {
 		height: 4em;
+	}
+	.addressContain {
+		position: relative;
+		height: 3em;
+	}
+	.addressMed {
+		position: absolute;
+		left: 20em;
+		top: 0.8em;
+	}
+	.copyDate {
+		position: absolute;
+		left: 52em;
+		bottom: 4.5em;
 	}
 }
