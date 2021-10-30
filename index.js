@@ -1,3 +1,11 @@
+
+
+function IntroLoad(){
+  alert("Hello, welcome to my webpage." + Date())
+}
+
+
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
