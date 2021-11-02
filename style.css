@@ -6,7 +6,9 @@
 html {
 	scroll-behavior: smooth;
 }
+
 /*Arrow up to navigate to top of page*/
+
 #myBtn {
 	width: 100px;
 	display: none;
@@ -27,15 +29,20 @@ html {
 #myBtn:hover {
 	font-size: 2em;
 }
+
 /* End of up arrow to navigate to top of page*/
+
 /*main container*/
+
 .main {
 	position: relative;
 	font-family: playball;
 }
+
 /*Picture of myself on first page*/
 
 /*Top div for nav bar*/
+
 .top-div {
 	background-image: url("https://s3-eu-west-1.amazonaws.com/video.gallereplay.com/landing/sliderone-timelapseloop-tyler.gif");
 	text-align: center;
@@ -45,7 +52,9 @@ html {
 	width: 100%;
 	height: 100vh;
 }
+
 /*Name on nav bar left side of top div screen*/
+
 .name {
 	color: whitesmoke;
 	font-family: playball;
@@ -57,7 +66,9 @@ html {
 .name:hover {
 	color: #b5bdc7;
 }
+
 /*Nav projects contact and about*/
+
 .one {
 	text-decoration: none;
 	font-family: playball;
@@ -74,6 +85,7 @@ html {
 /* Start of picture of self on first page controls size and position of pic*/
 
 /*parent for .picture*/
+
 .pic-wrapper {
 	position: relative;
 	display: flex;
@@ -84,6 +96,7 @@ html {
 }
 
 /*Pic of self*/
+
 .picture {
 	border: 2px solid blue;
 	border-radius: 50%;
@@ -96,13 +109,13 @@ html {
 /*End of self picture controls size and posiion on pic*/
 
 /*Down angle icon */
+
 .tds-icon {
 	width: 30%;
 	margin: 0.5em;
 }
 
-.two,
-a {
+.two, a {
 	text-decoration: none;
 	color: black;
 }
@@ -125,6 +138,7 @@ a {
 /* dropdown nav bar*/
 
 /* Dropdown Button */
+
 .dropbtn {
 	background-color: #b5bdc7;
 	color: black;
@@ -138,6 +152,7 @@ a {
 }
 
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
 	position: relative;
 	left: 40%;
@@ -145,6 +160,7 @@ a {
 }
 
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -159,6 +175,7 @@ a {
 }
 
 /* Links inside the dropdown */
+
 .dropdown-content .two {
 	color: black;
 	padding: 5px;
@@ -170,9 +187,11 @@ a {
 .dropdown-content a:hover {
 	color: rgb(77, 76, 76);
 }
+
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
 .dropdown:hover .dropbtn {
 	background-color: transparent;
 	color: transparent;
@@ -197,8 +216,7 @@ header {
 	color: black;
 }
 
-.btns,
-.btn {
+.btns, .btn {
 	font-size: 1.1em;
 	display: flex;
 	flex-direction: row;
@@ -225,7 +243,8 @@ header {
 	animation: bounce;
 	animation-duration: 5s;
 	animation-delay: 5s;
-	animation-iteration-count: infinite; /*To let animation repeat*/
+	animation-iteration-count: infinite;
+	/*To let animation repeat*/
 	cursor: pointer;
 }
 
@@ -285,8 +304,7 @@ td {
 	color: whitesmoke;
 }
 
-button,
-.s-order-now {
+button, .s-order-now {
 	border-radius: 15px 15px;
 	border: 2px solid whitesmoke;
 	background-color: transparent;
@@ -332,12 +350,14 @@ button,
 	background-attachment: fixed;
 	height: 100vh;
 }
+
 .model--x {
 	color: black;
 	font-size: 3em;
 	letter-spacing: 2px;
 	font-weight: lighter;
 }
+
 .X-model {
 	color: black;
 	padding: 0.3em;
@@ -351,8 +371,7 @@ button,
 	letter-spacing: 2px;
 }
 
-.touchles,
-.online {
+.touchles, .online {
 	color: black;
 }
 
@@ -385,11 +404,13 @@ button,
 	font-family: "Old Standard TT", serif;
 	font-size: 0.7em;
 }
+
 /*.dignity-health {
 	position: relative;
 }*/
 
 /* main container for header in dignity health*/
+
 .dignity-header {
 	display: flex;
 	justify-content: space-between;
@@ -397,6 +418,7 @@ button,
 	position: relative;
 	padding-right: 2em;
 }
+
 /*Dignity Health Icon and name*/
 
 .iconD {
@@ -406,6 +428,7 @@ button,
 }
 
 /*Hambuger slide out menu buttons search and schedule an appointment*/
+
 .mainBtn {
 	position: relative;
 	display: flex;
@@ -440,7 +463,9 @@ input[type="button"] {
 	padding: 0.5em;
 	font-size: 1em;
 }
+
 /*-----------------------------End of slide out menu buttons---------------------------*/
+
 .sb-example-1 .search {
 	width: 5%;
 	position: relative;
@@ -462,6 +487,7 @@ input[type="button"] {
 .sb-example-1 .searchTerm:focus {
 	color: #53565a;
 }
+
 .sb-example-1 .searchButton {
 	width: 40px;
 	height: 50px;
@@ -484,22 +510,25 @@ input[type="button"] {
 	width: 0;
 	position: fixed;
 	z-index: 1;
-	top: 0; /* Ajust the top of slide out menu*/
+	top: 0;
+	/* Ajust the top of slide out menu*/
 	left: 0;
 	background-color: white;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
-
 	/*text-align: center;*/
 }
 
 /*hamburger icon*/
+
 .ham-icon {
 	font-size: 2em;
 	color: #c85200;
 }
+
 /*Menu under the hamburger icon*/
+
 .menu {
 	font-size: 0.3em;
 	color: #c85200;
@@ -520,7 +549,9 @@ input[type="button"] {
 .sidenav a:hover {
 	color: #645f5f;
 }
+
 /* Move the hamburger drop down menu to the right*/
+
 .anchor-hospital a {
 	border-bottom: 1px solid rgb(194, 191, 191);
 	display: flex;
@@ -541,21 +572,25 @@ input[type="button"] {
 	font-size: 36px;
 	margin-left: 50px;
 }
+
 /*Hamburger slide out menu Dignity Health logo position*/
+
 .main-label {
 	display: flex;
 	position: relative;
 	bottom: 2em;
 }
+
 /*Hamburger slideout menu controls the size of Dignity Health Logo*/
-.dignity-label,
-img {
+
+.dignity-label, img {
 	width: 35%;
 }
 
 /* Begining for the search bar and icon on hamburger slide out menu*/
 
 /*Moves and adjust the size on the search button*/
+
 .sb-example-hospital .search-d {
 	width: 100%;
 	position: relative;
@@ -564,8 +599,11 @@ img {
 	align-items: center;
 	align-content: center;
 }
+
 /*Adjust the search button*/
+
 /*.sb-example-hospital*/
+
 .searchTerm-d {
 	width: 90%;
 	border: 2px solid lightgray;
@@ -577,11 +615,14 @@ img {
 	position: absolute;
 	top: -1em;
 }
+
 /*
 .sb-example-hospital .searchTerm-d:focus {
 	color: black;
 }*/
+
 /* Moves and adjust size of the search icon*/
+
 .sb-example-hospital .searchButton-d {
 	width: 40px;
 	height: 30px;
@@ -602,6 +643,7 @@ img {
 /* End of style for hamburger slide out drop down search icon bar-------------------------------------------*/
 
 /*The schedule appointment button on hamburger slide out menu--------------------------------*/
+
 .schedule-d {
 	position: relative;
 }
@@ -611,8 +653,11 @@ img {
 	position: absolute;
 	top: 4.5em;
 }
+
 /*Adjust schedule an appointment button*/
+
 /*.sb-example-hospital*/
+
 .hospital-schedule {
 	width: 98%;
 	border: 2px solid #0079d0;
@@ -628,6 +673,7 @@ img {
 /* End of schedule appointment button for hamburger  slide out menu----------------------------------*/
 
 /* main ccontainer for chandler regional medical center dropdown menu*/
+
 #hospital-container {
 	display: flex;
 	justify-content: space-between;
@@ -637,7 +683,9 @@ img {
 	background-color: #f5f5f5;
 	padding: 1em;
 }
+
 /* for chandler regional medical center text*/
+
 .crmc {
 	padding-left: 0.2em;
 	color: black;
@@ -646,6 +694,7 @@ img {
 /*Button for Down Arrow for dropdown menu---------------------------------------*/
 
 /* Dropdown Button */
+
 .dropbtn-hospital {
 	position: relative;
 	color: black;
@@ -653,20 +702,23 @@ img {
 	font-size: 16px;
 	border: none;
 }
+
 /* Controls position of down arrow icon*/
-#down-arrow,
-.fa-chevron-down {
+
+#down-arrow, .fa-chevron-down {
 	position: absolute;
 	left: 0.5em;
 	bottom: 0.2em;
 }
 
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown-hospital {
 	display: inline-block;
 }
 
 /* Links inside the dropdown */
+
 #dropdown-hospital-content a {
 	color: black;
 	padding: 12px 16px;
@@ -674,7 +726,9 @@ img {
 	display: block;
 	border-bottom: 1px #adadad solid;
 }
+
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content-dignity {
 	display: none;
 	position: absolute;
@@ -690,13 +744,17 @@ img {
 }
 
 /*--------------------------------------------------------------------------*/
+
 /* main container below chandler regional medicaL center-----------------------------*/
+
 .chandler-nav {
 	width: 100%;
 	font-size: 0.7em;
 	position: relative;
 }
+
 /*Main container for hamburger slide out menu with icons beside font------------------------*/
+
 .anchors-hospital {
 	position: absolute;
 	left: 2em;
@@ -706,24 +764,31 @@ img {
 .container-icons {
 	position: relative;
 }
+
 /* adjust the font beside icon in hamburger slide out menu*/
+
 .my-account {
 	position: absolute;
 	left: 3.4em;
 }
 
 /*Hamburger slide out menu with icons within buttons*/
+
 .btn-i .fas {
 	color: #c85200;
 }
+
 /*-------------------------------------------------------------------------------------*/
+
 /*anchors below Chandler regional Medical Center*/
+
 .chandler-nav a {
 	background-color: #f5f5f5;
 	color: #554d56;
 }
 
 /*--------------------------------------------------------------------------*/
+
 .HospitalPic {
 	background-image: url("images/chandler-pic.jpeg");
 	background-size: cover;
@@ -733,7 +798,9 @@ img {
 	margin-top: 2em;
 	z-index: 1;
 }
+
 /* main container for content below hospital pic*/
+
 .arizona {
 	display: flex;
 	flex-direction: column;
@@ -748,19 +815,25 @@ h4 {
 	padding: 0.5em;
 	color: #626567;
 }
+
 /* large orange font chandler regional medical center*/
+
 .medical-center {
 	padding-left: 0.1em;
 	color: #c85200;
 	font-size: 2em;
 	font-weight: bold;
 }
+
 /* Quote under large orange font*/
+
 .happy-quote {
 	padding: 1em;
 	color: #626567;
 }
+
 /*Button learn more*/
+
 .main-learn-more {
 	display: flex;
 	flex-direction: row;
@@ -783,6 +856,7 @@ h4 {
 }
 
 /*Start of Medtronic section------------------------------------------------*/
+
 .main-medtronic ul {
 	background-color: #140f4b;
 	color: white;
@@ -814,9 +888,10 @@ ul li {
 .twoPerson-pic {
 	width: 100%;
 }
+
 /*container for caption under first medtronic pic*/
-.medFirst,
-.bold {
+
+.medFirst, .bold {
 	color: #4b477c;
 	display: flex;
 	flex-direction: column;
@@ -826,28 +901,26 @@ ul li {
 	line-height: 1.5em;
 }
 
-.engineering-med,
-.ourBold {
+.engineering-med, .ourBold {
 	line-height: 1.5em;
 	font-weight: lighter;
 }
 
-.who-we-are,
-.future {
+.who-we-are, .future {
 	color: black;
 	font-weight: lighter;
 	position: relative;
 	right: 0.5em;
 }
 
-.medtronic-inspire-,
-.techWealth {
+.medtronic-inspire-, .techWealth {
 	width: 100%;
 	padding-top: 0.3em;
 }
+
 /*see how button*/
-.seeHow,
-.readMore {
+
+.seeHow, .readMore {
 	border: 1px solid #4b477c;
 	border-radius: 30px 30px;
 	padding: 1em;
@@ -857,13 +930,16 @@ ul li {
 	left: 1em;
 	top: 0.5em;
 }
+
 /* Medtronic pic of two people hugging*/
+
 .two-people-hugging {
 	width: 100%;
 	padding-top: 2em;
 }
 
 /* Medtronic footer*/
+
 footer {
 	background-color: #140f4b;
 	margin-top: 2em;
@@ -878,9 +954,7 @@ footer {
 	border-bottom: 1px solid white;
 }
 
-.footerList,
-.footerListTwo,
-.lastFooter {
+.footerList, .footerListTwo, .lastFooter {
 	color: white;
 	padding: 1em;
 	border-bottom: 1px solid white;
@@ -934,6 +1008,54 @@ footer {
 	padding-top: 3em;
 }
 
+/*Implant lookup tool start*/
+
+.backgroundImage {
+	background-image: url("images/mri\ scanner.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.headerContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1em;
+	background-color: gray;
+	
+}
+
+@keyframes move {
+	0% {
+		color: yellow;
+	}
+	33% {
+		color: whitesmoke;
+	}
+	66% {
+		color: black;
+	}
+	100% {
+		color: red;
+	}
+}
+
+.medtronic, .biotronic, .boston, .abbott {
+	color: whitesmoke;
+	background-color: darkblue;
+	
+	border-radius: 5px;
+	height: 30px;
+}
+
+button:hover {
+	background-color: blue;
+}
+
 /*Media Queries------------------------------------------*/
 
 @media screen and (min-width: 350px) {
@@ -980,15 +1102,13 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-	.one,
-	.name {
+	.one, .name {
 		color: black;
 	}
 }
 
 @media screen and (min-width: 700px) {
-	.one,
-	.name {
+	.one, .name {
 		color: whitesmoke;
 	}
 }
@@ -1004,9 +1124,7 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-	.model--s,
-	.order-0nline-for,
-	.touchless {
+	.model--s, .order-0nline-for, .touchless {
 		color: whitesmoke;
 	}
 }
@@ -1018,18 +1136,14 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
-	.custom-order,
-	.existing-inventory {
+	.custom-order, .existing-inventory {
 		width: 15em;
 		padding: 10pxfixed;
 	}
 }
 
 @media screen and (max-width: 330px) {
-	.custom-order,
-	.existing-inventory,
-	.custom,
-	.inventory {
+	.custom-order, .existing-inventory, .custom, .inventory {
 		padding: 0.2em;
 	}
 }
@@ -1085,22 +1199,19 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-	th,
-	td {
+	th, td {
 		color: whitesmoke;
 	}
 }
 
 @media screen and (min-width: 700px) {
-	.modelS,
-	.plaid {
+	.modelS, .plaid {
 		color: black;
 	}
 }
 
 @media screen and (min-width: 700px) {
-	.modelS,
-	.model--s {
+	.modelS, .model--s {
 		font-size: 4em;
 	}
 }
@@ -1136,8 +1247,7 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-	.X-model,
-	.plaid-x {
+	.X-model, .plaid-x {
 		color: rgb(162, 33, 33);
 		font-size: 3em;
 	}
@@ -1163,6 +1273,7 @@ footer {
 }
 
 /*Dignity health media query*/
+
 @media screen and (min-width: 650px) {
 	.iconD {
 		width: 40%;
@@ -1176,6 +1287,7 @@ footer {
 }
 
 /*Dignity health media query*/
+
 @media screen and (min-width: 700px) {
 	.sb-example-1 .search {
 		position: relative;
@@ -1216,7 +1328,9 @@ footer {
 		border-color: blue;
 	}
 }
+
 /* Allows poition of the search icon beside hamburger menu icon*/
+
 @media screen and (min-width: 700px) {
 	.sb-example-1 .searchButton {
 		position: absolute;
@@ -1239,7 +1353,9 @@ footer {
 		padding-left: 1em;
 	}
 }
+
 /* Main container for search and schedule an appointment buttons*/
+
 @media screen and (min-width: 700px) {
 	.mainBtn {
 		display: flex;
@@ -1251,22 +1367,21 @@ footer {
 		padding: 2px;
 		gap: 2px;
 	}
-
 	input[type="submit"] {
 		width: 300px;
 	}
-
 	input[type="button"] {
 		width: 300px;
 	}
-
 	.icon-search {
 		position: absolute;
 		right: 20em;
 		top: 0.8em;
 	}
 }
+
 /*Medtronic footer social media content*/
+
 @media screen and (min-width: 824px) {
 	.mainFooter {
 		display: flex;
@@ -1277,9 +1392,7 @@ footer {
 	.footerContain {
 		display: flex;
 	}
-	.footerList,
-	.footerListTwo,
-	.footerListThree {
+	.footerList, .footerListTwo, .footerListThree {
 		width: 90%;
 		border-bottom: 1px solid white;
 	}
