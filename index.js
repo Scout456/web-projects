@@ -1,11 +1,11 @@
 
 //Introduction
-function load(message){
+/*function load(message){
   alert("Hello, welcome to my webpage. " + message);
-}
+}*/
 
 document.getElementById("IntroLoad").onload = function(){
-  load(" Here's the date and time: " + Date())
+  alert(" Here's the date and time: " + Date())
 }
 
 
@@ -21,7 +21,7 @@ function scrollFunction() {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
-  }
+  } 
 }
 
 // When the user clicks on the button, scroll to the top of the document
