@@ -1,7 +1,11 @@
 
 //Introduction
-function IntroLoad(){
-  alert("Hello, welcome to my webpage." + Date())
+function load(message){
+  alert("Hello, welcome to my webpage. " + message);
+}
+
+document.getElementById("IntroLoad").onload = function(){
+  load(" Here's the date and time: " + Date())
 }
 
 
