@@ -1008,7 +1008,7 @@ footer {
 	padding-top: 3em;
 }
 
-/*Implant lookup tool start*/
+/*Implant lookup tool start work project*/
 
 .backgroundImage {
 	background-image: url("images/mri\ scanner.webp");
@@ -1062,6 +1062,16 @@ button:hover {
 }
 
 /* End of implant lookup tool------------------------------------*/
+
+/*Banner for work projects*/
+
+.projectsWork {
+	text-align: center;
+	color: whitesmoke;
+	background-image: linear-gradient(gray, #140F4B, #1F01FF);
+}
+
+/*End of banner work projects------------------------------------*/
 
 /*Media Queries------------------------------------------*/
 
@@ -1435,18 +1445,14 @@ button:hover {
 	.headerContent {
 		display: flex;
 		flex-direction: row;
-    justify-content: space-evenly;
+		justify-content: space-evenly;
 		align-items: center;
 		background-color: gray;
 		color: blue;
 	}
-
-
 	.listVendor {
 		display: flex;
 		flex-direction: row;
-  	align-items: center;
-		
+		align-items: center;
 	}
-	
 }
