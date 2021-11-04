@@ -1019,12 +1019,8 @@ footer {
 }
 
 .headerContent {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: gray;
+	/*background-color: gray;*/
 	padding: 1em;
 }
 
@@ -1033,9 +1029,10 @@ footer {
 	padding: 0 0 0 .7em;
 }
 
-
-
-
+.listVendor{
+	display: flex;
+	flex-direction: column;
+}
 
 @keyframes move {
 	0% {
