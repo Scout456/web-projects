@@ -1019,22 +1019,25 @@ footer {
 }
 
 .headerContent {
+	display: flex;
+	flex-direction:column;
 	font-family: Arial, Helvetica, sans-serif;
 	/*background-color: gray;*/
 	padding: 1em;
 }
 
 .vendorImplant {
-	font-size: .8em;
-	padding: 0 0 0 .7em;
+	font-size: 1.5em;
+
 }
 
 .listVendor{
 	display: flex;
 	flex-direction: column;
+	
 }
 
-@keyframes move {
+/*@keyframes move {
 	0% {
 		color: yellow;
 	}
@@ -1047,12 +1050,11 @@ footer {
 	100% {
 		color: red;
 	}
-}
+}*/
 
 .medtronic, .biotronic, .boston, .abbott {
 	color: whitesmoke;
 	background-color: darkblue;
-	margin: .5em;
 	border-radius: 5px;
 	height: 30px;
 }
@@ -1060,6 +1062,8 @@ footer {
 button:hover {
 	background-color: blue;
 }
+
+/* End of implant lookup tool------------------------------------*/
 
 /*Media Queries------------------------------------------*/
 
