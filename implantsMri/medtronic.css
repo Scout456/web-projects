@@ -1,36 +1,43 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 #container {
-	display: flex;
-	flex-direction: column;
 	background-color: lightblue;
 	width: 100%;
 }
 
 .head {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 	background-color: blue;
 	color: whitesmoke;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
-	font-size: 12px;
-	padding-bottom: 12px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: .5em;
 	letter-spacing: 0.5em;
-	height: 80px;
+	width: 100%;
+	height: 7em;
 }
 
-.pace,
-.icd,
-.nerve,
-.pump,
-.dbs,
-.shunt {
+.paceHeader, .medPhone {
+	text-align: center;
+}
+
+.pace, .icd, .nerve, .pump, .dbs, .shunt {
 	background-color: lightblue;
 	font-family: Arial, Helvetica, sans-serif;
-	text-align: left;
+	width: 100%;
 }
+
 img {
-	float: right;
+	width: 100%;
+	/*	float: right;
 	margin-bottom: 15px;
-	margin-right: 15px;
+	margin-right: 15px;*/
 	opacity: 0.35;
 }
 
@@ -39,6 +46,7 @@ img:hover {
 	transition: opacity 0.5s;
 	transition-delay: 0.1s;
 }
+
 button {
 	border: 2px solid darkblue;
 	border-radius: 5px;
