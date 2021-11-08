@@ -47,7 +47,7 @@ img:hover {
 	transition-delay: 0.1s;
 }
 
-button {
+.medBtn {
 	border: 2px solid darkblue;
 	border-radius: 5px;
 	background-color: blue;
@@ -68,6 +68,6 @@ button {
 	background-color: whitesmoke;
 }
 
-button:hover {
+.medBtn:hover {
 	background-color: gray;
 }
