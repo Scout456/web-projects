@@ -920,7 +920,7 @@ ul li {
 
 /*see how button*/
 
-.seeHow, .readMore {
+.medSeeHow, .medReadMore {
 	border: 1px solid #4b477c;
 	border-radius: 30px 30px;
 	padding: 1em;
@@ -929,6 +929,14 @@ ul li {
 	position: relative;
 	left: 1em;
 	top: 0.5em;
+}
+
+.medSeeHow:hover {
+	color: white;
+}
+
+.medReadMore:hover {
+	color: white;
 }
 
 /* Medtronic pic of two people hugging*/
@@ -1008,7 +1016,7 @@ footer {
 	padding-top: 3em;
 }
 
-/*Implant lookup tool start work project*/
+/*Implant lookup tool start of work project*/
 
 .backgroundImage {
 	background-image: url("images/mri\ scanner.webp");
@@ -1057,7 +1065,7 @@ footer {
 	height: 3em;
 }
 
-button:hover {
+.medtronic .biotronic .boston .abbott, button:hover {
 	background-color: blue;
 }
 
