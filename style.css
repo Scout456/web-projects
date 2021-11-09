@@ -918,7 +918,7 @@ ul li {
 	padding-top: 0.3em;
 }
 
-/*see how button*/
+/*see how and read more buttons for  Medtronic*/
 
 .medSeeHow, .medReadMore {
 	border: 1px solid #4b477c;
@@ -933,10 +933,12 @@ ul li {
 
 .medSeeHow:hover {
 	color: white;
+	background-color: #4b477c;
 }
 
 .medReadMore:hover {
 	color: white;
+	background-color: #4b477c;
 }
 
 /* Medtronic pic of two people hugging*/
@@ -1055,7 +1057,7 @@ footer {
 	}
 	100% {
 		color: red;
-	}
+	}pwd
 }*/
 
 .medtronic, .biotronic, .boston, .abbott {
@@ -1075,7 +1077,7 @@ footer {
 	background-image: linear-gradient(gray, #140F4B, #1F01FF);
 }
 
-/*End of banner work projects------------------------------------*/
+/*End of implant look up tool projects------------------------------------*/
 
 /*Media Queries------------------------------------------*/
 
