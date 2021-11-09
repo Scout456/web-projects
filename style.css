@@ -1022,7 +1022,7 @@ footer {
 
 .backgroundImage {
 	background-image: url("images/mri\ scanner.webp");
-	background-position: center;
+	background-position-y: .1em;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
