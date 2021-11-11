@@ -3,7 +3,7 @@
 	margin: 0;
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
@@ -59,7 +59,6 @@ img:hover {
 	margin: 5px;
 }
 
-
 .library {
 	padding: .3em;
 	margin-bottom: .5em;
@@ -91,7 +90,28 @@ img:hover {
 		text-align: left;
 		height: 17em;
 	}
-	.library{
-   margin-left: .4em;
+	.library {
+		margin-left: .4em;
 	}
 }
+
+.btnTop{
+	display: flex;
+	justify-content: center;
+
+}
+
+.backToTop:hover{
+	background-color: darkblue;
+	color: white;
+}
+
+.backToTop{
+	border-radius: 15px 15px;
+	padding: .7em;
+	border: 2px solid darkblue;
+	color: blue;
+	left: 20px;
+	margin: 0 0 .5em 0;
+	}
+
