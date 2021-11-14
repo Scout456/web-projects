@@ -1060,14 +1060,14 @@ footer {
 	}pwd
 }*/
 
-.medtronic, .biotronic, .boston, .abbott {
+.vendor {
 	color: whitesmoke;
 	background-color: darkblue;
 	border-radius: 5px;
 	height: 3em;
 }
 
-.medtronic .biotronic .boston .abbott, button:hover {
+.vendor:hover {
 	background-color: blue;
 }
 
