@@ -95,21 +95,3 @@ img:hover {
 	}
 }
 
-.btnContain {
-	display: flex;
-	justify-content: center;
-}
-
-.backTop:hover {
-	background-color: darkblue;
-	color: white;
-}
-
-.backTop {
-	border-radius: 15px 15px;
-	padding: .7em;
-	border: 2px solid darkblue;
-	color: blue;
-	left: 20px;
-	margin: 0 0 .5em 0;
-}
