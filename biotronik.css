@@ -8,13 +8,16 @@
 }
 
 header {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: darkblue;
   color: whitesmoke;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 12px;
-  letter-spacing: 0.5em;
-  height: 80px;
+  width: 100%;
+  
 }
 
 img {
