@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body html{
+body html {
   height: 100%;
 }
 
@@ -27,6 +27,11 @@ header {
   height: 80px;
 }
 
+.bosImplants{
+  text-align: center;
+}
+
+
 img {
   /*float: right;
   margin-right: 15px;
@@ -43,7 +48,7 @@ img:hover {
 
 
 
-  button {
+button {
   padding: .5em;
   background-color: lightblue;
   color: darkblue;
