@@ -41,12 +41,14 @@ img:hover {
   transition: delay.1s;
 }
 
-button {
-  
+
+
+  button {
+  padding: .5em;
   background-color: lightblue;
   color: darkblue;
   border: 2px solid blue;
-  border-radius: 5px;
+  border-radius: 15px 15px;
   font-weight: bold;
   margin: 5px;
 }
