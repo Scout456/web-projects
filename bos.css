@@ -103,6 +103,10 @@ button:hover {
    }
  ul li{
    padding: .5em;
+
+ }
+  .paceImage{
+   padding-top: 2em;
  }
 
 }
