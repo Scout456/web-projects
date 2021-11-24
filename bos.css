@@ -90,12 +90,19 @@ button:hover {
   img {
     width: 15em;
     height: 14em;
-    margin-top: 20px;
-    margin-right: 15px;
+    margin-top: 1em;
+  
     float: right;
 }
   .bosImplants{
     text-align: left;
+    
   }
+  #main{
+    height:100em;
+   }
+ ul li{
+   padding: .5em;
+ }
 
 }
