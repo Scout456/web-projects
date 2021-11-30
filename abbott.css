@@ -21,21 +21,22 @@ body html{
 
 header {
   text-align: center;
-  padding-top: 1.5em;
+padding: 1em;
   background-color: black;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 12px;
   letter-spacing: 0.5em;
-  height: 80px;
+  
 }
 
 img {
-  /*float: right;*/
+  /*float: right;
   width: 100%;
   margin-right: 15px;
-  padding-bottom: 12px;
+  padding-bottom: 12px;*/
+
   opacity: 0.35;
 }
 
