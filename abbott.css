@@ -82,10 +82,16 @@ button:hover {
 @media screen and (min-width: 700px) {
   img {
     float: right;
-    width: 20%;
-    height: 10em;
-  }
-  #main{
+    width: 22%;
+    padding-top: 2.5em;
+    padding-right: 2em;
+    }
+
+  #main {
     text-align: left;
+  }
+
+  .abbImplant {
+  height: 20em;
   }
 }
