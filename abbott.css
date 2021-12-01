@@ -83,6 +83,9 @@ button:hover {
   img {
     float: right;
     width: 20%;
-
+    height: 10em;
+  }
+  #main{
+    text-align: left;
   }
 }
