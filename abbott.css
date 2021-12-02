@@ -98,4 +98,8 @@ button:hover {
   .abbImplant {
   height: 20em;
   }
+
+  button{
+    margin:1.7em 0 0 1em;
+  }
 }
