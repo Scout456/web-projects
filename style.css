@@ -1069,6 +1069,7 @@ footer {
 
 .vendor:hover {
 	background-color: blue;
+	transition: 1s;
 }
 
 .projectsWork {
@@ -1454,11 +1455,14 @@ footer {
 		justify-content: space-evenly;
 		align-items: center;
 		background-color: gray;
-		color: blue;
+		color:black;
 	}
 	.listVendor {
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+	}
+	.vendorImplant{
+		color: black;
 	}
 }
