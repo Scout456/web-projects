@@ -8,4 +8,14 @@ body html{
   height: 100%;
 }
 
-h1{ background-color: red;}
+.nav-bar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.navMenu{
+  display: flex;
+}
