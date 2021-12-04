@@ -1,27 +1,27 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body html{
+body html {
   height: 100%;
 }
 
-header{
+header {
   background-color: #262622;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
 
-.nav-bar{
+.nav-bar {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -29,22 +29,56 @@ a{
   padding: 0 24px;
 }
 
-.navMenu{
+.navMenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 60px;
 }
 
-.logo{
+.logo {
   font-size: 3em;
 }
 
-.navLink{
+.navLink {
   transition: 1s;
 }
 
-.navLink:hover{
+.navLink:hover {
   color: dodgerblue;
 }
 
+.ham {
+  display: none;
+  cursor: pointer;
+}
+
+.barOne {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+@media screen and (max-width:768px) {
+  .ham {
+    display: block;
+  }
+
+  .ham.active .barOne:nth-child(2) {
+    opacity: 0;
+  }
+
+  .ham.active .barOne:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .ham.active .barOne:nth-child(3) {
+   transform: translateY(-8px) rotate(-45deg);
+  }
+
+
+}
