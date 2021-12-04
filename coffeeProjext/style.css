@@ -8,6 +8,19 @@ body html{
   height: 100%;
 }
 
+header{
+  background-color: #262622;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
 .nav-bar{
   min-height: 70px;
   display: flex;
@@ -25,5 +38,13 @@ body html{
 
 .logo{
   font-size: 3em;
+}
+
+.navLink{
+  transition: 1s;
+}
+
+.navLink:hover{
+  color: dodgerblue;
 }
 
