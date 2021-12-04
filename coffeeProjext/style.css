@@ -8,8 +8,16 @@ body html {
   height: 100%;
 }
 
+.head {
+  background-image: url("/images/mainCoffee.jpg");
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 header {
-  background-color: #262622;
+  background-color: #360D0C;
 }
 
 li {
@@ -45,7 +53,7 @@ a {
 }
 
 .navLink:hover {
-  color: dodgerblue;
+  color: #BB8484;
 }
 
 .ham {
@@ -77,10 +85,10 @@ a {
   }
 
   .ham.active .barOne:nth-child(3) {
-   transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
-  
-  .navMenu{
+
+  .navMenu {
     position: fixed;
     left: 100%;
     top: 70px;
@@ -94,7 +102,7 @@ a {
 
   }
 
-  .navMenu.active{
+  .navMenu.active {
     left: 50%;
   }
 
