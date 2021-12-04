@@ -22,3 +22,8 @@ body html{
   align-items: center;
   gap: 60px;
 }
+
+.logo{
+  font-size: 3em;
+}
+
