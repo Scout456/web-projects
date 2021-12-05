@@ -7,7 +7,7 @@
 body html {
   height: 100%;
 }
-
+/*Background image for main page*/
 .head {
   background-image: url("/images/mobileCoffee.jpg");
   background-position: center;
@@ -95,11 +95,21 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  
+}
+
+img{
+  width: 50%;
+  margin-left: 25%;
+  
 }
 
 .coffeeOne {
   background-color: yellow;
   flex: 1;
+  
+  
+  
 }
 
 .coffeeTwo {
