@@ -82,12 +82,17 @@ a {
   background-position: center;
 }
 
-
-
 .menuCoffee {
   color: white;
   text-align: center;
   font-family: serif
+}
+
+.coffeeMenu{
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 
@@ -99,7 +104,6 @@ a {
   .ham.active .barOne:nth-child(2) {
     opacity: 0;
   }
-
   .ham.active .barOne:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
