@@ -74,6 +74,13 @@ a {
   background-color: white;
 }
 
+.menuCoffee{
+  color: white;
+  text-align: center;
+  font-family:serif
+}
+
+
 @media screen and (max-width:768px) {
   .ham {
     display: block;
