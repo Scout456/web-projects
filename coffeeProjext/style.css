@@ -16,9 +16,7 @@ body html {
   height: 100vh;
 }
 
-.logo{
-  font-family:smooch ;
-}
+
 
 header {
   background-color: #360D0C;
@@ -50,6 +48,7 @@ a {
 
 .logo {
   font-size: 3em;
+  font-family: smooch;
 }
 
 .navLink {
