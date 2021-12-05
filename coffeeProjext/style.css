@@ -88,12 +88,53 @@ a {
   font-family: serif
 }
 
-.coffeeMenu{
+.coffeeMenu {
   color: whitesmoke;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  
 }
+
+.coffeeOne {
+  background-color: yellow;
+  flex: 1;
+}
+
+.coffeeTwo {
+  background-color: green;
+  flex: 1;
+}
+
+.coffeeThree {
+  background-color: brown;
+  flex: 1;
+}
+
+.coffeeFour {
+  background-color: black;
+  flex: 1;
+}
+
+.coffeeFive {
+  background-color: gray;
+  flex: 1;
+}
+
+.coffeeSix {
+  background-color:blue;
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:768px) {
@@ -104,6 +145,7 @@ a {
   .ham.active .barOne:nth-child(2) {
     opacity: 0;
   }
+
   .ham.active .barOne:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
