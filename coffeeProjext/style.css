@@ -16,6 +16,10 @@ body html {
   height: 100vh;
 }
 
+.logo{
+  font-family:smooch ;
+}
+
 header {
   background-color: #360D0C;
 }
