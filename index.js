@@ -4,9 +4,11 @@
   alert("Hello, welcome to my webpage. " + message);
 }*/
 
-document.getElementById("IntroLoad").onload = function(){
+/*document.getElementById("IntroLoad").onload = function(){
   alert(" Here's the date and time: " + Date())
-}
+}*/
+
+
 
 
 
@@ -91,7 +93,20 @@ window.onclick = function(event) {
 
   
 
+function btn(change){
+  let button = document.getElementById(change);
+  button.innerHTML = "Yes nothing happen this goes no where.";
+  button.style.color = "red";
+  button.style.padding = ".5em";
+}
 
+document.getElementById("btnT").onclick = function(){
+  btn(this.id);
+}
+
+document.getElementById("btnE").onclick = function(){
+  btn(this.id);
+}
 
 
 
