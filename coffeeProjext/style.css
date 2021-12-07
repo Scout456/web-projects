@@ -7,6 +7,7 @@
 body html {
   height: 100%;
 }
+
 /*Background image for main page*/
 .head {
   background-image: url("/images/mobileCoffee.jpg");
@@ -95,21 +96,26 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
+
 }
 
-img{
+img {
   width: 100%;
 
-  
+
 }
 
+.butterscotch {
+  text-align: center;
+}
+
+
 .coffeeOne {
-  background-color: yellow;
+
   flex: 1;
-  
-  
-  
+
+
+
 }
 
 .coffeeTwo {
@@ -133,7 +139,7 @@ img{
 }
 
 .coffeeSix {
-  background-color:blue;
+  background-color: blue;
   flex: 1;
 }
 
