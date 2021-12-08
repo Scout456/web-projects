@@ -108,18 +108,23 @@ img {
 .butterScotch {
   text-align: center;
   font-size: 1.5em;
+
+
+}
+
+.smoked {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.butterscotchContainer {
+  background-color: #E3BB85;
+  color: black;
   
-
 }
-
-.smoked{
-  text-align: center;
-}
-
-form{
-  text-align: center;
-}
-
 
 .coffeeOne {
 
