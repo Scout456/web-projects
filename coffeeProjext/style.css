@@ -75,14 +75,21 @@ a {
   background-color: white;
 }
 
-.restRelax{
+.restRelax {
   font-size: 3em;
   font-family: serif;
   color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+#mainBtn {
+  padding: 1em;
+  border-radius: 20px 20px;
+  background-color: transparent;
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
 
 }
 
