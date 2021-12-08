@@ -75,6 +75,18 @@ a {
   background-color: white;
 }
 
+.restRelax{
+  font-size: 3em;
+  font-family: serif;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+
 .menuContainer {
   background-image: url("https://c.tenor.com/7XnV8g0UZ-IAAAAd/good-morning-sky.gif");
   height: 100vh;
@@ -123,7 +135,7 @@ form {
 .butterscotchContainer {
   background-color: #E3BB85;
   color: black;
-  
+
 }
 
 .coffeeOne {
