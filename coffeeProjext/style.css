@@ -91,9 +91,8 @@ a {
   background-color: transparent;
   color: whitesmoke;
   border: 1px solid whitesmoke;
-  
-
 }
+
 
 .mainPageBtn {
   display: flex;
@@ -103,18 +102,12 @@ a {
 }
 
 
-.menuContainer {
-  background-image: url("https://c.tenor.com/7XnV8g0UZ-IAAAAd/good-morning-sky.gif");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+
 
 .menuCoffee {
   color: white;
   text-align: center;
-  font-family: serif
+  font-family: serif;
 }
 
 .coffeeMenu {
@@ -127,15 +120,19 @@ a {
 
 }
 
+
+
+
+
 img {
   width: 100%;
-
-
 }
 
 .butterScotch {
   text-align: center;
   font-size: 1.5em;
+  color: #360D0C;
+  
 
 
 }
@@ -146,6 +143,8 @@ img {
 
 form {
   text-align: center;
+  background-color: #360D0C;
+  width: 100%;
 }
 
 .butterscotchContainer {
