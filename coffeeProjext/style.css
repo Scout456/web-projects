@@ -128,16 +128,14 @@ img {
   width: 100%;
 }
 
-.butterScotch {
+.coffeeType {
   text-align: center;
   font-size: 1.5em;
   color: #360D0C;
-  
-
 
 }
 
-.smoked {
+.coffeeDescription {
   text-align: center;
   padding: .5em;
 }
@@ -150,7 +148,7 @@ form {
   width: 100%;
 }
 
-.butterscotchContainer {
+.coffeeContainer {
   background-color: #E3BB85;
   color: black;
 
@@ -165,7 +163,7 @@ form {
 }
 
 .coffeeTwo {
-  
+
   flex: 1;
 }
 
