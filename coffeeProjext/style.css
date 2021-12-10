@@ -113,13 +113,14 @@ a {
 
 
 
+
 .menuCoffee {
   color: white;
   text-align: center;
   font-family: serif;
 }
 
- .coffeeMenu {
+.coffeeMenu {
   color: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -128,10 +129,6 @@ a {
   flex-wrap: wrap;
 
 }
-
-
-
-
 
 img {
   width: 100%;
@@ -149,18 +146,23 @@ img {
   padding: .5em;
 }
 
-form {
+form{
+  width: 100%;
   text-align: center;
   padding: .5em;
   background-color: #360D0C;
   color: whitesmoke;
-  width: 100%;
+  
 }
 
 .coffeeContainer {
   background-color: #E3BB85;
   color: black;
 
+}
+
+#btnOne {
+  display: none;
 }
 
 .coffeeOne {
@@ -193,11 +195,6 @@ form {
 
   flex: 1;
 }
-
-
-
-
-
 
 
 
@@ -241,39 +238,74 @@ form {
 
 }
 
-@media screen and (min-width:768px) {
-   img{
+@media screen and (min-width:780px) {
+  img {
     width: 50%;
-    }
-    .coffeeContainer{
-  
+  }
+
+  .coffeeContainer {
+    background-color: transparent;
     float: right;
     width: 50%;
     position: relative;
     top: 0em;
-    }
-    form{
-      font-size: 1.5em;
-      padding: 1em;
-      }
-      .restRelax{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-        padding-top: 2em;
+  }
 
-      }
+  form {
+    display: none;
+    width: 100%;
+  }
 
-      .navLink:hover{
-        color: #E2B874;
-      }
+  .restRelax {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2em;
 
-      #cafeOne{
-        height: 81.5vh;
-      }
-      
-    }
-    
-    
+  }
+
+  .navLink:hover {
+    color: #E2B874;
+  }
+
+  #cafeOne {
+
+    padding: 4em;
+
+  }
+
+  .btnS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
+  }
+
+   #btnOne {
+    display: block;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: .5em;
+    border-radius: 20px 20px;
+}
+   
+  #btnOne:hover{
+  color: #E3BB85;
+  border: 2px solid #E3BB85;
+  transition: 0.75s;
+}
+
+  .coffeeType {
+    color: whitesmoke;
+  }
+
+  .coffeeDescription {
+    color: whitesmoke;
+  }
+
+}
