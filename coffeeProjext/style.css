@@ -139,11 +139,14 @@ img {
 
 .smoked {
   text-align: center;
+  padding: .5em;
 }
 
 form {
   text-align: center;
+  padding: .5em;
   background-color: #360D0C;
+  color: whitesmoke;
   width: 100%;
 }
 
@@ -162,7 +165,7 @@ form {
 }
 
 .coffeeTwo {
-  background-color: green;
+  
   flex: 1;
 }
 
