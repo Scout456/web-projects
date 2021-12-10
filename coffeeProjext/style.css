@@ -27,7 +27,7 @@ header {
 
 li {
   list-style-type: none;
-  
+
 }
 
 a {
@@ -35,8 +35,8 @@ a {
   text-decoration: none;
 }
 
-.navItem{
-  
+.navItem {
+
   font-size: 1.5em;
 }
 
@@ -119,10 +119,10 @@ a {
   font-family: serif;
 }
 
-.coffeeMenu {
+ .coffeeMenu {
   color: whitesmoke;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -240,3 +240,40 @@ form {
   }
 
 }
+
+@media screen and (min-width:768px) {
+   img{
+    width: 50%;
+    }
+    .coffeeContainer{
+  
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 0em;
+    }
+    form{
+      font-size: 1.5em;
+      padding: 1em;
+      }
+      .restRelax{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding-top: 2em;
+
+      }
+
+      .navLink:hover{
+        color: #E2B874;
+      }
+
+      #cafeOne{
+        height: 81.5vh;
+      }
+      
+    }
+    
+    
