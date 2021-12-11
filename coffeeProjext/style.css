@@ -102,6 +102,11 @@ a {
   border: 1px solid whitesmoke;
 }
 
+#mainBtn:hover{
+  color: #E2B874;
+  border: 2px solid #E2B874;
+}
+
 
 .mainPageBtn {
   display: flex;
@@ -117,7 +122,10 @@ a {
 .menuCoffee {
   color: white;
   text-align: center;
-  font-family: serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: .2em;
+  line-height: 2em;
+
 }
 
 .coffeeMenu {
@@ -146,13 +154,13 @@ img {
   padding: .5em;
 }
 
-form{
+form {
   width: 100%;
   text-align: center;
   padding: .5em;
   background-color: #360D0C;
   color: whitesmoke;
-  
+
 }
 
 .coffeeContainer {
@@ -248,7 +256,7 @@ form{
     float: right;
     width: 50%;
     position: relative;
-     top: 0em;
+    top: 0em;
   }
 
   form {
@@ -263,8 +271,9 @@ form{
     align-items: center;
     gap: 1em;
     padding-top: 2em;
-
   }
+
+ 
 
   .navLink:hover {
     color: #E2B874;
@@ -285,20 +294,20 @@ form{
     padding-top: 1em;
   }
 
-   #btnOne {
+  #btnOne, #btnTwo, #btnThree {
     display: block;
     border: 2px solid whitesmoke;
     background-color: transparent;
     color: whitesmoke;
     padding: .5em;
     border-radius: 20px 20px;
-}
-   
-  #btnOne:hover{
-  color: #E3BB85;
-  border: 2px solid #E3BB85;
-  transition: 0.75s;
-}
+  }
+
+  #btnOne:hover, #btnTwo:hover, #btnThree:hover {
+    color: #E3BB85;
+    border: 3px solid #E3BB85;
+    transition: 0.75s;
+  }
 
   .coffeeType {
     color: whitesmoke;
