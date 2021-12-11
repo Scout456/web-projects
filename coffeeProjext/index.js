@@ -7,21 +7,28 @@ hamburger.addEventListener("click", () =>{
 })
 
 
-function btn(){
+/*function btn(){
   let btnS = document.getElementById("target");
+  
   btnS.innerHTML = "Order received";
   btnS.style.color = "white";
   btnS.style.fontFamily = "cursive";
+    
 }
 
 document.getElementById("btnOne").onclick = function(){
   btn();
-}
+}*/
 
-document.getElementById("btnTwo").onclick = function(){
-  btn();
-}
+let btns = document.querySelectorAll('button');
+target= document.querySelector(".target");
+target.style.color = "white";
+target.style.fontFamily = "cursive";
 
-document.getElementById("btnThree").onclick = function(){
-  btn();
-}
+btns.forEach(function(i){
+  i.addEventListener('click',function(){
+    document.querySelector('.target').innerHTML = "Order received";
+    
+  });
+});
+
