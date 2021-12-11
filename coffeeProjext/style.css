@@ -279,11 +279,7 @@ form {
     color: #E2B874;
   }
 
-  #cafeOne {
-
-    padding: 4em;
-
-  }
+ 
 
   .btnS {
     display: flex;
@@ -316,5 +312,6 @@ form {
   .coffeeDescription {
     color: whitesmoke;
   }
+  
 
 }
