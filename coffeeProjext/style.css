@@ -102,7 +102,7 @@ a {
   border: 1px solid whitesmoke;
 }
 
-#mainBtn:hover{
+#mainBtn:hover {
   color: #E2B874;
   border: 2px solid #E2B874;
 }
@@ -120,11 +120,16 @@ a {
 
 
 .menuCoffee {
-  color: white;
+  color: whitesmoke;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   letter-spacing: .2em;
   line-height: 2em;
+  background-image: url("https://thumbs.gfycat.com/ImpoliteDampHoneybee-max-1mb.gif");
+  background-repeat: repeat;
+  background-size: 20em;
+  background-position-y:-10em ;
+  height: 15vh;
 
 }
 
@@ -273,13 +278,13 @@ form {
     padding-top: 2em;
   }
 
- 
+
 
   .navLink:hover {
     color: #E2B874;
   }
 
- 
+
 
   .btnS {
     display: flex;
@@ -313,6 +318,6 @@ form {
   .coffeeDescription {
     color: whitesmoke;
   }
-  
+
 
 }
