@@ -169,11 +169,11 @@ form {
 }
 
 .contact {
-  background-image: url("https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2017/10/30140408/bigstock-Espresso-Machine-Brewing-A-Cof-318666301-min.jpg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5BGW6q_f4--119PL72f6M_dr2JaE9AzAe3w&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: .7;
+  opacity: .6;
   height: 100vh;
 }
 
@@ -182,6 +182,11 @@ form {
   background-color: #E3BB85;
   color: black;
 
+}
+
+
+.btnS {
+  display: none;
 }
 
 #btnOne {
