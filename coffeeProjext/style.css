@@ -128,7 +128,7 @@ a {
   background-image: url("https://thumbs.gfycat.com/ImpoliteDampHoneybee-max-1mb.gif");
   background-repeat: repeat;
   background-size: 20em;
-  background-position-y:-10em ;
+  background-position-y: -10em;
   height: 15vh;
 
 }
@@ -167,6 +167,16 @@ form {
   color: whitesmoke;
 
 }
+
+.contact {
+  background-image: url("https://pas-wordpress-media.s3.amazonaws.com/content/uploads/2017/10/30140408/bigstock-Espresso-Machine-Brewing-A-Cof-318666301-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: .7;
+  height: 100vh;
+}
+
 
 .coffeeContainer {
   background-color: #E3BB85;
