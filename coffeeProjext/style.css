@@ -175,6 +175,7 @@ form {
   background-position: center;
   opacity: .6;
   height: 100vh;
+
 }
 
 
@@ -269,6 +270,7 @@ form {
 @media screen and (min-width:780px) {
   img {
     width: 50%;
+    height: 75vh;
   }
 
   .coffeeContainer {
