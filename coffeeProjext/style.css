@@ -135,11 +135,8 @@ a {
 
 .coffeeMenu {
   color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  
+  
 
 }
 
@@ -270,7 +267,7 @@ form {
 @media screen and (min-width:780px) {
   img {
     width: 50%;
-    height: 75vh;
+    height: 90vh;
   }
 
   .coffeeContainer {
@@ -335,6 +332,8 @@ form {
   .coffeeDescription {
     color: whitesmoke;
   }
+
+
 
 
 }
