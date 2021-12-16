@@ -170,15 +170,14 @@ form {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: .6;
   height: 100vh;
+  padding-top: 10em;
 
 }
 
 
 
 #nameForm, #emailForm {
-  padding: 2em;
   background-color: transparent;
 }
 
