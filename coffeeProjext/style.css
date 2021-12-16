@@ -123,12 +123,12 @@ a {
   color: whitesmoke;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  letter-spacing: .2em;
-  line-height: 2em;
+  letter-spacing: 1em;
+  padding-top: .5em;
   background-image: url("https://media4.giphy.com/media/65J8DxZ9ojfBxBl3Gw/giphy-downsized-large.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -2em;
+  background-position:center;
   height: 15vh;
 
 }
@@ -165,7 +165,7 @@ form {
 
 }
 
-.contact {
+.checkOut {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5BGW6q_f4--119PL72f6M_dr2JaE9AzAe3w&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,7 +333,11 @@ form {
     color: whitesmoke;
   }
 
-
-
+  .menuCoffee{
+    letter-spacing: 3em;
+    font-size: 3em;
+    padding:.2em 0 0 2.5em;
+    
+  }
 
 }
