@@ -128,7 +128,7 @@ a {
   background-image: url("https://media4.giphy.com/media/65J8DxZ9ojfBxBl3Gw/giphy-downsized-large.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   height: 15vh;
 
 }
@@ -177,17 +177,33 @@ form {
 
 
 
-#nameForm{
-padding: 2em;
+#nameForm, #emailForm {
+  padding: 2em;
   background-color: transparent;
-  }
+}
 
-  input[type=text]{
-    background-color: transparent;
-    border: 2px solid whitesmoke;
-    margin: 1em;
-    border-radius: 5px;
-  }
+
+
+input[type=text] {
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+input[type=email] {
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+input[type=tel] {
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  margin: 1em;
+  border-radius: 5px;
+}
 
 
 .coffeeContainer {
@@ -347,11 +363,11 @@ padding: 2em;
     color: whitesmoke;
   }
 
-  .menuCoffee{
+  .menuCoffee {
     letter-spacing: 3em;
     font-size: 3em;
-    padding:.2em 0 0 2.5em;
-    
+    padding: .2em 0 0 2.5em;
+
   }
 
 }
