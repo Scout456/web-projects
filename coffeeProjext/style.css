@@ -176,6 +176,20 @@ form {
 }
 
 
+
+#nameForm{
+padding: 2em;
+  background-color: transparent;
+  }
+
+  input[type=text]{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    margin: 1em;
+    border-radius: 5px;
+  }
+
+
 .coffeeContainer {
   background-color: #E3BB85;
   color: black;
