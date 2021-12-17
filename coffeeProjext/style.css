@@ -204,6 +204,24 @@ input[type=tel] {
   border-radius: 5px;
 }
 
+input[type=submit] {
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  color: whitesmoke;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px 20px;
+}
+
+
+
 
 .coffeeContainer {
   background-color: #E3BB85;
