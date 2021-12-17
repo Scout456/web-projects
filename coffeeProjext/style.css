@@ -172,7 +172,7 @@ form {
   background-position: center;
   height: 100vh;
   padding-top: 5em;
-  
+
 
 }
 
@@ -217,7 +217,7 @@ input[type=submit] {
   border-radius: 5px;
 }
 
-input:hover{
+input:hover {
   background-color: wheat;
   cursor: pointer;
 }
@@ -232,7 +232,7 @@ input:hover{
   cursor: pointer;
 }
 
-#submit:hover{
+#submit:hover {
   background-color: wheat;
   color: black;
 }
@@ -356,7 +356,7 @@ input:hover{
     padding-top: 2.5em;
   }
 
-  .checkOut form{
+  .checkOut form {
     display: block;
   }
 
@@ -408,7 +408,13 @@ input:hover{
 
   }
 
-  #nameForm{
+  #nameForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #emailForm {
     display: flex;
     justify-content: center;
     align-items: center;
