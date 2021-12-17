@@ -408,4 +408,10 @@ input:hover{
 
   }
 
+  #nameForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
