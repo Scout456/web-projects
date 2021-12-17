@@ -218,7 +218,7 @@ input[type=submit] {
 }
 
 input:hover {
-  background-color: wheat;
+  background-color: #fabfa8;
   cursor: pointer;
 }
 
@@ -233,7 +233,7 @@ input:hover {
 }
 
 #submit:hover {
-  background-color: wheat;
+  background-color: #fabfa8;
   color: black;
 }
 
@@ -405,9 +405,9 @@ input:hover {
     letter-spacing: 3em;
     font-size: 3em;
     padding: .2em 0 0 2.5em;
-   }
+  }
 
-   
+
 
   #nameForm {
     display: flex;
@@ -417,7 +417,7 @@ input:hover {
     font-weight: bold;
     font-size: 1.2em;
 
-    
+
   }
 
   #emailForm {
@@ -429,7 +429,7 @@ input:hover {
     font-size: 1.2em;
   }
 
-  #submit{
+  #submit {
     font-weight: bold;
     font-size: 1em;
     position: absolute;
