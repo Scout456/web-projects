@@ -20,7 +20,7 @@ document.getElementById("btnOne").onclick = function(){
   btn();
 }*/
 
-let btns = document.querySelectorAll('button');
+/*let btns = document.querySelectorAll('button');
 target= document.querySelector(".target");
 target.style.color = "white";
 target.style.fontFamily = "cursive";
@@ -30,7 +30,7 @@ btns.forEach(function(i){
     document.querySelector('.target').innerHTML = "Order received";
     
   });
-});
+});*/
 
 
 function sub(){
