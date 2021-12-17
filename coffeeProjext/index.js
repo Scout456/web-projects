@@ -33,5 +33,15 @@ btns.forEach(function(i){
 });
 
 
+function sub(){
+  let order = document.getElementById("submit");
+  order.innerHTML = " Information sent Thank You";
+}
+
+document.getElementById("submit").onclick = function(){
+  sub();
+}
+
+
 
 
