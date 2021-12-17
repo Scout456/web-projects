@@ -405,19 +405,31 @@ input:hover {
     letter-spacing: 3em;
     font-size: 3em;
     padding: .2em 0 0 2.5em;
+   }
 
-  }
+   .checkOut{
+     border: 2px solid wheat;
+   }
 
   #nameForm {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 2em;
   }
 
   #emailForm {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+  }
+
+  #submit{
+    font-weight: bold;
+    position: absolute;
+    top: 12em;
+
   }
 
 }
