@@ -172,14 +172,20 @@ form {
   background-position: center;
   height: 100vh;
   padding-top: 5em;
+  
 
 }
+
+
 
 
 
 #nameForm, #emailForm {
   background-color: transparent;
+
 }
+
+
 
 
 
@@ -211,6 +217,11 @@ input[type=submit] {
   border-radius: 5px;
 }
 
+input:hover{
+  background-color: wheat;
+  cursor: pointer;
+}
+
 #submit {
   background-color: transparent;
   border: 2px solid whitesmoke;
@@ -218,6 +229,12 @@ input[type=submit] {
   padding: 1em;
   margin: 1em;
   border-radius: 20px 20px;
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: wheat;
+  color: black;
 }
 
 
@@ -337,6 +354,10 @@ input[type=submit] {
     align-items: center;
     gap: 1em;
     padding-top: 2.5em;
+  }
+
+  .checkOut form{
+    display: block;
   }
 
 
