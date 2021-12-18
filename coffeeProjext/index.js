@@ -45,3 +45,26 @@ document.getElementById("submit").onclick = function(){
 
 
 
+function buttons(){
+  let out = document.getElementById("target");
+  out.innerHTML = "Order recieved. Thank you.";
+  out.style.color = "white";
+}
+
+document.getElementById("btnOne").onclick = function(){
+  buttons();
+}
+
+document.getElementById("btnTwo").onclick = function(){
+  buttons();
+}
+
+document.getElementById("btnThree").onclick = function(){
+  buttons();
+}
+
+
+
+
+
+
