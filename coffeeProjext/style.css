@@ -451,4 +451,8 @@ input:hover {
     border-radius: 5px;
   }
 
+  input:hover{
+    background-color: #E2B874;
+  }
+
 }
