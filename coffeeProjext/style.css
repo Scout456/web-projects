@@ -171,9 +171,13 @@ form {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding-top: 5em;
+  padding-top: 1em;
+}
 
 
+
+#creditCard{
+  background: transparent;
 }
 
 
@@ -192,28 +196,28 @@ form {
 input[type=text] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: 1em;
+  margin: .5em;
   border-radius: 5px;
 }
 
 input[type=email] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: 1em;
+  margin: .5em;
   border-radius: 5px;
 }
 
 input[type=tel] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: 1em;
+  margin: .5em;
   border-radius: 5px;
 }
 
 input[type=submit] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: 1em;
+  margin: .5em;
   border-radius: 5px;
 }
 
@@ -227,7 +231,7 @@ input:hover {
   border: 2px solid whitesmoke;
   color: whitesmoke;
   padding: 1em;
-  margin: 1em;
+  margin: .5em;
   border-radius: 20px 20px;
   cursor: pointer;
 }
@@ -438,7 +442,7 @@ input:hover {
 
   }
 
-  .first, .last{
+  .first, .last {
     position: relative;
     right: 1em;
     bottom: .7em;
@@ -452,7 +456,7 @@ input:hover {
     border-radius: 5px;
   }
 
-  input:hover{
+  input:hover {
     background-color: #E2B874;
   }
 
