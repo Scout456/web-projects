@@ -196,28 +196,28 @@ form {
 input[type=text] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: .5em;
+  margin: .3em;
   border-radius: 5px;
 }
 
 input[type=email] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: .5em;
+  margin: .3em;
   border-radius: 5px;
 }
 
 input[type=tel] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: .5em;
+  margin: .3em;
   border-radius: 5px;
 }
 
 input[type=submit] {
   background-color: transparent;
   border: 2px solid whitesmoke;
-  margin: .5em;
+  margin: .3em;
   border-radius: 5px;
 }
 
@@ -226,9 +226,11 @@ input:hover {
   cursor: pointer;
 }
 
-.cardInfo{
-  padding: 1em;
-  
+
+
+.cardNumb, .cvc, .cardInfo{
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 
@@ -236,7 +238,7 @@ input:hover {
   background-color: transparent;
   border: 2px solid whitesmoke;
   color: whitesmoke;
-  padding: 1em;
+  padding: .5em;
   margin: .5em;
   border-radius: 20px 20px;
   cursor: pointer;
