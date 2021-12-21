@@ -176,7 +176,7 @@ form {
 
 
 
-#creditCard{
+#creditCard {
   background: transparent;
 }
 
@@ -225,6 +225,12 @@ input:hover {
   background-color: #fabfa8;
   cursor: pointer;
 }
+
+.cardInfo{
+  padding: 1em;
+  
+}
+
 
 #submit {
   background-color: transparent;
@@ -434,11 +440,14 @@ input:hover {
     font-size: 1.2em;
   }
 
+
+  
+  
   #submit {
     font-weight: bold;
     font-size: 1em;
-    
-    
+
+
 
   }
 
