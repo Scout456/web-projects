@@ -299,189 +299,193 @@ input:hover {
 }
 
 #cardNumber, #cvc, #expire, #credirCards {
-  margin: .2em;
- background-color: wheat;
+  margin: .3em;
+  background-color: wheat;
 
 }
 
 
 
 
-  @media screen and (max-width:768px) {
-    .ham {
-      display: block;
-    }
+@media screen and (max-width:768px) {
+  .ham {
+    display: block;
+  }
 
-    .ham.active .barOne:nth-child(2) {
-      opacity: 0;
-    }
+  .ham.active .barOne:nth-child(2) {
+    opacity: 0;
+  }
 
-    .ham.active .barOne:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-    }
+  .ham.active .barOne:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-    .ham.active .barOne:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-    }
+  .ham.active .barOne:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-    .navMenu {
-      position: fixed;
-      left: 100%;
-      top: 70px;
-      gap: .5em;
-      flex-direction: column;
-      align-items: flex-end;
-      background-color: #E2B874;
-      width: 50%;
-      padding: .5em;
-      transition: 0.7s;
-
-    }
-
-    .navMenu.active {
-      left: 50%;
-    }
+  .navMenu {
+    position: fixed;
+    left: 100%;
+    top: 70px;
+    gap: .5em;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #E2B874;
+    width: 50%;
+    padding: .5em;
+    transition: 0.7s;
 
   }
 
-  @media screen and (min-width:780px) {
-    img {
-      width: 50%;
-      height: 90vh;
-    }
-
-    .coffeeContainer {
-      background-color: transparent;
-      float: right;
-      width: 50%;
-      position: relative;
-      top: 0em;
-    }
-
-    form {
-      display: none;
-      width: 100%;
-    }
-
-    .restRelax {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      gap: 1em;
-      padding-top: 2.5em;
-    }
-
-    .checkOut form {
-      display: block;
-    }
-
-
-
-    .navLink:hover {
-      color: #E2B874;
-    }
-
-
-
-    .btnS {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 1em;
-      padding-top: 1em;
-    }
-
-    #btnOne, #btnTwo, #btnThree {
-      display: block;
-      border: 2px solid whitesmoke;
-      background-color: transparent;
-      color: whitesmoke;
-      padding: .5em;
-      border-radius: 20px 20px;
-    }
-
-    #btnOne:hover, #btnTwo:hover, #btnThree:hover {
-      color: #E3BB85;
-      border: 3px solid #E3BB85;
-      transition: 0.75s;
-    }
-
-    .coffeeType {
-      color: whitesmoke;
-      padding-top: 4em;
-    }
-
-    .coffeeDescription {
-      color: whitesmoke;
-    }
-
-    .menuCoffee {
-      letter-spacing: 3em;
-      font-size: 2.5em;
-      padding: .2em 0 0 2.5em;
-      font-family: cursive;
-    }
-
-
-
-    #nameForm {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 2em;
-      font-weight: bold;
-      font-size: 1.2em;
-
-
-    }
-
-    #emailForm {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      font-weight: bold;
-      font-size: 1.2em;
-    }
-
-
-
-
-    #submit {
-      font-weight: bold;
-      font-size: 1em;
-
-
-
-    }
-
-    .first, .last {
-      position: relative;
-      right: 1em;
-      bottom: .7em;
-    }
-
-
-    input[type=text] {
-      background-color: transparent;
-      border: 2px solid whitesmoke;
-      margin: 0 3.7em 2em 0;
-      border-radius: 5px;
-    }
-
-    input:hover {
-      background-color: #E2B874;
-    }
-
-    .cardInfo {
-      margin: .5em;
-    }
-
-    #cardNumber, #cvc, #expire, #credirCards {
-      margin: .5em;
-      padding: .5em;
-      background-color: wheat;
-    }
+  .navMenu.active {
+    left: 50%;
   }
+
+}
+
+@media screen and (min-width:780px) {
+  img {
+    width: 50%;
+    height: 90vh;
+  }
+
+  .coffeeContainer {
+    background-color: transparent;
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 0em;
+  }
+
+  form {
+    display: none;
+    width: 100%;
+  }
+
+  .restRelax {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 2.5em;
+  }
+
+  .checkOut form {
+    display: block;
+  }
+
+
+
+  .navLink:hover {
+    color: #E2B874;
+  }
+
+
+
+  .btnS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-top: 1em;
+  }
+
+  #btnOne, #btnTwo, #btnThree {
+    display: block;
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: .5em;
+    border-radius: 20px 20px;
+  }
+
+  #btnOne:hover, #btnTwo:hover, #btnThree:hover {
+    color: #E3BB85;
+    border: 3px solid #E3BB85;
+    transition: 0.75s;
+  }
+
+  .coffeeType {
+    color: whitesmoke;
+    padding-top: 4em;
+  }
+
+  .coffeeDescription {
+    color: whitesmoke;
+  }
+
+  .menuCoffee {
+    letter-spacing: 3em;
+    font-size: 2.5em;
+    padding: .2em 0 0 2.5em;
+    font-family: cursive;
+  }
+
+
+
+  #nameForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    font-weight: bold;
+    font-size: 1.2em;
+
+
+  }
+
+  #emailForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+
+
+
+  #submit {
+    font-weight: bold;
+    font-size: 1em;
+
+
+
+  }
+
+  .first, .last {
+    position: relative;
+    right: 1em;
+    bottom: .7em;
+  }
+
+
+  input[type=text] {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    margin: 0 3.7em 2em 0;
+    border-radius: 5px;
+  }
+
+  input:hover {
+    background-color: #E2B874;
+  }
+
+  .cardInfo {
+    margin: .1em;
+  }
+  .cardNumb, .cvc, .expDate{
+    font-size: 1.4em;
+  }
+  
+  
+  #cardNumber, #cvc, #expire, #credirCards {
+    margin: .5em;
+    padding: .5em;
+    background-color: wheat;
+  }
+}
