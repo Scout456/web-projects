@@ -228,7 +228,7 @@ input:hover {
 
 
 
-.cardNumb, .cvc, .cardInfo{
+.cardNumb, .cvc, .cardInfo {
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -443,8 +443,8 @@ input:hover {
   }
 
 
-  
-  
+
+
   #submit {
     font-weight: bold;
     font-size: 1em;
@@ -471,4 +471,13 @@ input:hover {
     background-color: #E2B874;
   }
 
+  .cardInfo {
+    margin: 1.5em;
+  }
+
+   #cardNumber{
+     margin: 1em;
+     padding: .5em;
+     background-color: wheat;
+   }
 }
