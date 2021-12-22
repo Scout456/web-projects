@@ -472,11 +472,11 @@ input:hover {
   }
 
   .cardInfo {
-    margin: 1.5em;
+    margin: .5em;
   }
 
-   #cardNumber{
-     margin: 1em;
+   #cardNumber, #cvc , #expire{ 
+     margin: .5em;
      padding: .5em;
      background-color: wheat;
    }
