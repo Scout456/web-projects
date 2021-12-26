@@ -478,18 +478,25 @@ input:hover {
   .cardInfo {
     margin: .1em;
   }
-  .cardNumb, .cvc, .expDate{
+
+  .cardNumb, .cvc, .expDate {
     font-size: 1.4em;
   }
-  
-  
+
+
   #cardNumber, #cvc, #expire, #credirCards {
     margin: .5em;
     padding: .5em;
     background-color: wheat;
   }
 
-  .cardCvc{
+  .cardCvc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .expireType{
     display: flex;
     justify-content: center;
     align-items: center;
