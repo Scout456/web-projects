@@ -476,7 +476,7 @@ input:hover {
   }
 
   .cardInfo {
-    margin: .1em;
+    margin: 2em;
   }
 
   .cardNumb, .cvc, .expDate {
