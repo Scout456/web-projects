@@ -235,6 +235,7 @@ input:hover {
 
 
 #submit {
+  width: 100%;
   background-color: transparent;
   border: 2px solid whitesmoke;
   color: whitesmoke;
