@@ -501,5 +501,8 @@ input:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 4em;
+    top: 1em;
   }
 }
