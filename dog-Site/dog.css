@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body html {
+  height: 100%;
+
+}
+
+
+
+.containerTwo {
+  background-image: url("https://media.istockphoto.com/photos/group-of-nine-dogs-picture-id857174584?k=20&m=857174584&s=612x612&w=0&h=GSk95YF9gwC02tHMZNA49S_qjt3_AZYtOoK9JAwL3cw=");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logoTwo {
+  color: #5B5354;
+  font-size: 2em;
+  padding: 1.2em;
+}
+
+.navbarTwo {
+  width: 400px;
+  height: 100%;
+  background-image: url("https://www.icegif.com/wp-content/uploads/dog-icegif-7.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .8s;
+  border-radius: 20px 0 0 20px;
+}
+
+.changeTwo {
+  right: 0;
+}
+
+.nav-itemTwo {
+  list-style-type: none;
+  margin: 50px;
+
+}
+
+.nav-linkTwo {
+  text-decoration: none;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 3px 0;
+}
+
+
+
+
+.hamburger-menuTwo {
+  width: 35px;
+  height: 30px;
+  /*background-color: red;*/
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.lineTwo {
+  width: 100%;
+  height: 4px;
+  background-color: #262626;
+  transition: 0.8s
+}
+
+
+
+.changeTwo .line-01 {
+  transform: rotateZ(-405deg) translate(-8px, 6px);
+  /*Makes a X*/
+  background-color: bisque;
+
+}
+
+.changeTwo .line-02 {
+  opacity: 0;
+}
+
+.changeTwo .line-03 {
+  transform: rotateZ(405deg) translate(-8px, -6px);
+  /*Makes a X*/
+  background-color: bisque;
+
+}
