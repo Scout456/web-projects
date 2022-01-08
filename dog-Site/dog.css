@@ -12,7 +12,7 @@ body html {
 
 
 .containerTwo {
-  background-image: url("https://media.istockphoto.com/photos/group-of-nine-dogs-picture-id857174584?k=20&m=857174584&s=612x612&w=0&h=GSk95YF9gwC02tHMZNA49S_qjt3_AZYtOoK9JAwL3cw=");
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/620/8/28/animals-dog-landscape-photography-wallpaper-preview.jpg");
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -114,9 +114,8 @@ body html {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 250px;
+  max-width: 70%;
   position: relative;
-  top: 4em;
   margin: auto;
 }
 
@@ -156,6 +155,7 @@ body html {
 .text {
   color: black;
   font-size: 25px;
+  font-weight: bold;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -178,7 +178,7 @@ body html {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
