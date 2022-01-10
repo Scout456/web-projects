@@ -109,12 +109,19 @@ body html {
 
 }
 
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .2em;
+}
+
 .topDog {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .forYourDog{
-  font-size: 32px;
+  font-size: 25px;
 }
 /*----------------------------------------------------------------------------------------------*/
 
