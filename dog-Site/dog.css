@@ -67,9 +67,9 @@ body html {
   padding: 3px 0;
 }
 
-.nav-linkTwo:hover{
-border-bottom: 2px solid bisque;
-border-top: 2px solid bisque;
+.nav-linkTwo:hover {
+  border-bottom: 2px solid bisque;
+  border-top: 2px solid bisque;
 
 }
 
@@ -117,7 +117,7 @@ border-top: 2px solid bisque;
 
 }
 
-.quote{
+.quote {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,9 +129,10 @@ border-top: 2px solid bisque;
   font-size: 20px;
 }
 
-.forYourDog{
+.forYourDog {
   font-size: 25px;
 }
+
 /*----------------------------------------------------------------------------------------------*/
 
 
@@ -243,7 +244,7 @@ border-top: 2px solid bisque;
 }
 
 .dogLives {
-  background-image: url("https://cdn-0.therandomvibez.com/wp-content/uploads/2017/04/Short-Quotes-about-Dogs.jpg");
+  background-image: url("https://cdn3.vectorstock.com/i/thumb-large/94/17/poster-design-dog-lover-quote-vector-20569417.jpg");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
