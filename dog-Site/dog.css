@@ -137,7 +137,7 @@ border-top: 2px solid bisque;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 100%;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 
