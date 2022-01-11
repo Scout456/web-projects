@@ -119,6 +119,7 @@ border-top: 2px solid bisque;
 
 .quote{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: .2em;
