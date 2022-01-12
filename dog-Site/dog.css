@@ -251,3 +251,12 @@ body html {
   background-position: center;
   position: fixed;
 }
+
+.scroll-container{
+  height: 100vh;
+  min-height: 450px;
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
