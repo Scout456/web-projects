@@ -281,3 +281,14 @@ body html {
 .scroll-container:nth-of-type(even) {
   flex-direction: row-reverse;
 }
+
+.scroll-element{
+  min-height: 300px;
+  height: 100%;
+  background-color: #eaeaea;
+}
+
+.scroll-caption{
+  margin: 1em;
+  text-align: center;
+}
