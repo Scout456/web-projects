@@ -256,12 +256,13 @@ body html {
 
 .containerBox {
   background-color: bisque;
+  width: 100%;
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  
 }
 
 .box {
