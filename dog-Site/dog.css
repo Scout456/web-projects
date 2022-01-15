@@ -253,88 +253,38 @@ body html {
 }
 
 /*----------------------------Begin of slide affect-----------------------------------*/
-.scroll-container {
-  height: 100vh;
-  min-height: 450px;
-  padding: 2em 1em;
+
+.containerBox {
+  background-color: bisque;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.box {
+  background-color: steelblue;
+  color: whitesmoke;
   display: flex;
   align-items: center;
-  box-sizing: border-box;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 3);
+  border-radius: 10px;
+  transform: translateX(200%);
+  /*Moves it way off screen to the right. 400% for wide screens*/
+  transition: transform 0.5s ease;
 }
 
-
-.scroll-container:nth-of-type(1) {
-  background-color: #bdd0c4;
+/*will choose every other box.*/
+.box:nth-of-type(even) {
+  transform: translateX(-200%)/*will bring them in from the left*/
 }
 
-.scroll-container:nth-of-type(2) {
-  background-color: #f5d2d3;
-}
-
-.scroll-container:nth-of-type(3) {
-  background-color: #9ab7d3;
-}
-
-.scroll-container:nth-of-type(4) {
-  background-color: #dfccf1;
-}
-
-.scroll-container:nth-of-type(even) {
-  flex-direction: row-reverse;
-}
-
-.scroll-element {
-  min-height: 300px;
-  height: 100%;
-  background-color: #eaeaea;
-}
-
-.scroll-caption {
-  margin: 1em;
-  text-align: center;
-}
-
-@media screen and (max-width: 650px) {
-
-  .scroll-container,
-  .scroll-container:nth-of-type(even) {
-    flex-direction: column;
-    align-content: inherit;
-  }
-
-  .scroll-element {
-    height: 100%;
-  }
-
-  .scroll-element,
-  .scroll-caption {
-    width: 100%;
-  }
-}
-
-/**Styling scrollable elements*/
-
-.js-scroll {
-  opacity: 0;
-  transition: opacity 500ms;
-}
-
-.js-scroll.scrolled {
-  opacity: 1;
-}
-
-.scrolled.fade-in {
-  animation: fade-in 1s ease-in-out both;
-}
-
-.scrolled.fade-in-bottom {
-  animation: fade-in-bottom 1s ease-in-out both;
-}
-
-.scrolled.slide-left {
-  animation: slide-in-left 1s ease-in-out both;
-}
-
-.scrolled.slide-right {
-  animation: slide-in-right 1s ease-in-out both;
+.box.show {
+  transform: translateX(0);
 }
