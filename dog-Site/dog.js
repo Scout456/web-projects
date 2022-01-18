@@ -37,8 +37,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }*/
 
-
-
+/*------------------------------------------------------------------------*/
 
 var slideIndex = 0;
 showSlides();
@@ -52,13 +51,13 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2200); // Change image every 2 seconds
+  setTimeout(showSlides, 2200); // Change image every 2.2 seconds
 }
 
+/*---------------------------------------------------------------------------------*/
+const boxes = document.querySelectorAll(".box");
 
-const boxes = document.querySelectorAll(".box")
-
-window.addEventListener("scroll", checkBoxes)
+window.addEventListener("scroll", checkBoxes);
 
 checkBoxes()
 
@@ -66,14 +65,68 @@ function checkBoxes(){
  const triggerBottom = window.innerHeight /5 * 4;
 
  boxes.forEach(box => {
-   const boxTop = box.getBoundingClientRect().top
+   const boxTop = box.getBoundingClientRect().top;
 
    if(boxTop < triggerBottom){
-     box.classList.add("show")
+     box.classList.add("show");
    }else{
-     box.classList.remove("show")
+     box.classList.remove("show");
    }
  })
 }
 
+/*--------------------------------------------------------------------*/
 
+
+
+/*const numSteps = 20.0;
+
+let boxElement;
+let prevRatio = 0.0;
+let increasingColor = "rgba(40, 40, 190, ratio)";
+let decreasingColor = "rgba(190, 40, 40, ratio)";
+
+// Set things up
+window.addEventListener("load", (event) => {
+  boxElement = document.querySelector("#box");
+
+  createObserver();
+}, false);
+
+function createObserver() {
+  let observer;
+
+  let options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: buildThresholdList()
+  };
+
+  observer = new IntersectionObserver(handleIntersect, options);
+  observer.observe(boxElement);
+}
+
+function buildThresholdList() {
+  let thresholds = [];
+  let numSteps = 20;
+
+  for (i = 1.0; i < numSteps; i++) {
+    let ratio = i/numSteps;
+    thresholds.push(ratio);
+  }
+
+  thresholds.push(0);
+  return thresholds;
+}
+
+function handleIntersect(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > prevRatio) {
+      entry.target.style.backgroundColor = increasingColor.replace("ratio", entry.intersectionRatio);
+    } else {
+      entry.target.style.backgroundColor = decreasingColor.replace("ratio", entry.intersectionRatio);
+    }
+
+    prevRatio = entry.intersectionRatio;
+  });
+}*/
