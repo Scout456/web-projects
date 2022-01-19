@@ -38,7 +38,7 @@ function showSlides(n) {
 }*/
 
 /*------------------------------------------------------------------------*/
-
+/*
 var slideIndex = 0;
 showSlides();
 
@@ -52,10 +52,10 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2200); // Change image every 2.2 seconds
-}
+}*/
 
 /*---------------------------------------------------------------------------------*/
-const boxes = document.querySelectorAll(".box");
+/*const boxes = document.querySelectorAll(".box");
 
 window.addEventListener("scroll", checkBoxes);
 
@@ -73,7 +73,7 @@ function checkBoxes(){
      box.classList.remove("show");
    }
  })
-}
+}*/
 
 /*--------------------------------------------------------------------*/
 
@@ -130,3 +130,32 @@ function handleIntersect(entries, observer) {
     prevRatio = entry.intersectionRatio;
   });
 }*/
+
+/* Intersecrion Observer---------------------------------------------------------------------*/
+
+const section = document.querySelector(".section-2");
+const imgContent = document.querySelector(".img");
+
+const objOptions = {
+  root: null,
+  threshold: 0.3,
+  rootMargin: "-100px",
+};
+
+const sectionObserver = new IntersectionObserver(callBackFunction, objOptions);
+sectionObserver.observe(section);
+
+function callBackFunction(entries) {
+  const [entry] = entries;
+  console.log(entry);
+  if (entry.isIntersecting) {
+    imgContent.classList.remove("hidden");
+  } else {
+    imgContent.classList.add("hidden");
+  }
+}
+
+
+
+
+
