@@ -297,7 +297,7 @@ body {
   font-size: 40px;
 }
 
-
+/*----------------------------------------------------------------------------------------*/
 
 /*#box {
   background-color: rgba(40, 40, 190, 255);
@@ -324,3 +324,67 @@ body {
   text-align: center;
   padding: 20px;
 }*/
+
+
+/*-------------------------------intersection Observer----------------------------------------*/
+
+h2 {
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.img {
+  width: 95%;
+  max-width: 550px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+section,
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fdfbfb;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+}
+
+.content>div {
+  width: 50%;
+}
+
+.section-2,
+header {
+  background: #ebedee;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #cfd4dd 100%);
+}
+
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.hidden-right {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.left-column {
+  transition: all 1.5s ease-in-out;
+}
+
+.right-column {
+  transition: all 1.5s ease-in-out;
+}
