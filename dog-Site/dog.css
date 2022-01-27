@@ -156,7 +156,7 @@ input[type=text]:focus {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   padding: 5em 0 0 0;
   color: whitesmoke;
 }
@@ -410,14 +410,32 @@ header {
   transform: translateX(100%);
 }
 
-.left-column {
-  transition: all 1.5s ease-in-out;
-  
+.hidden-leftBottom {
+  opacity: 0;
+  transform: translateY(100%);
 }
 
-.right-column {
+.hidden-rightBottom {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.left-column {
+  transition: all 1.5s ease-in-out;
+
+}
+
+.right-column, .right-columnBottom {
   transition: all 1.5s ease-in-out;
   color: whitesmoke;
   font-size: 2em;
   padding: .2em 0 0 .4em;
+}
+
+.left-columnBottom{
+  transition: all 1.5s ease-in-out;
+}
+
+.right-columnBottom{
+  transition: all 1.5s ease-in-out;
 }
