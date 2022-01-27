@@ -363,14 +363,7 @@ input[type=text]:focus{
 
 /*-------------------------------intersection Observer----------------------------------------*/
 
-h2 {
-  margin-bottom: 5rem;
-  font-size: 3rem;
-}
 
-h3 {
-  font-size: 2rem;
-}
 
 .img {
   width: 95%;
