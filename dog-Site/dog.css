@@ -49,11 +49,11 @@ input[type=text] {
   background-repeat: no-repeat;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
-  box-shadow: 3px 3px black, -.2em 0 .4em black ;
+  box-shadow: 3px 3px black, -.2em 0 .4em black;
 }
 
-input[type=text]:focus{
-   width: 45%;
+input[type=text]:focus {
+  width: 45%;
 }
 
 
@@ -363,7 +363,12 @@ input[type=text]:focus{
 
 /*-------------------------------intersection Observer----------------------------------------*/
 
-
+.sectionMain {
+  background-image: url("https://cdn.shopify.com/s/files/1/0879/0542/products/PC1055@2x.jpg?v=1640117344");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .img {
   width: 95%;
@@ -380,7 +385,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   overflow: hidden;
 }
 
