@@ -23,8 +23,43 @@ body {
 .logoTwo {
   color: #5B5354;
   font-size: 2em;
-  padding: 1.2em;
+  padding: .8em 0em 0em 1em;
 }
+
+form, .search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 3.5em;
+  width: 60%;
+  margin-left: auto;
+
+}
+
+input[type=text] {
+  width: 65px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-image: url("https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png");
+  background-position-x: 40px;
+  background-position-y: -7px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  box-shadow: 3px 3px black, -.2em 0 .4em black ;
+}
+
+input[type=text]:focus{
+   width: 45%;
+}
+
+
+
+
+
 
 .navbarTwo {
   width: 250px;
