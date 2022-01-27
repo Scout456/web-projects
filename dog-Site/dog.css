@@ -380,8 +380,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #fdfbfb;
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  
   overflow: hidden;
 }
 
@@ -393,11 +392,7 @@ header {
   width: 50%;
 }
 
-.section-2,
-header {
-  background: #ebedee;
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #cfd4dd 100%);
-}
+
 
 .hidden-left {
   opacity: 0;
