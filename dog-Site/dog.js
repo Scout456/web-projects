@@ -155,6 +155,14 @@ document.querySelectorAll(".right-column").forEach((column) => {
   column.classList.add("hidden-right");
 });
 
+document.querySelectorAll(".left-columnBottom").forEach((column) => {
+  column.classList.add("hidden-leftBottom");
+});
+
+document.querySelectorAll(".right-columnBottom").forEach((column) => {
+  column.classList.add("hidden-rightBottom");
+});
+
 function callback(entries, observer) {
   const [entry] = entries;
 
@@ -165,6 +173,8 @@ function callback(entries, observer) {
   const curSection = document.querySelector(`.${curSectionsName}`);
   curSection.lastElementChild.firstElementChild.classList.remove("hidden-left");
   curSection.lastElementChild.lastElementChild.classList.remove("hidden-right");
+   curSection.lastElementChild.firstElementChild.classList.remove("hidden-leftBottom");
+  curSection.lastElementChild.lastElementChild.classList.remove("hidden-rightBottom");
 
   observer.unobserve(entry.target);
 }
