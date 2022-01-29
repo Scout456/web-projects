@@ -471,6 +471,16 @@ header {
   justify-content: center;
   align-items: center;
   gap: 2em;
+  font-size: 1.5em;
+}
 
+.Information{
+  color: #7D583F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
 
 }
