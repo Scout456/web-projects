@@ -472,6 +472,7 @@ header {
   align-items: center;
   gap: 2em;
   font-size: 1.5em;
+  padding-top: 2em;
 }
 
 .Information{
@@ -480,6 +481,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 1.5em;
+  padding-top: 2em;
 
   
 
