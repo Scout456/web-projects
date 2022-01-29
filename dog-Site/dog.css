@@ -378,7 +378,7 @@ input[type=text]:focus {
   margin: 0 0 0 .5em;
   border-radius: 6px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  
+
 }
 
 section,
@@ -457,4 +457,20 @@ header {
 
 .right-columnBottom {
   transition: all 1.5s ease-in-out;
+}
+
+
+
+
+
+/*Footer--------------------------------------------------------------------------------------*/
+
+.icons {
+  color: #7D583F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+
 }
