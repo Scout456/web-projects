@@ -465,24 +465,40 @@ header {
 
 /*Footer--------------------------------------------------------------------------------------*/
 
-.footer {
-  background-image: url('https://i.gifer.com/EyYk.gif');
+footer {
+  background-image: url('https://i.pinimg.com/originals/7c/f0/43/7cf0433a27d602044268b2a04300bf30.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #8F5D31;
+  width: 12em;
+  height: 12em;
+  opacity: .7;
+  border-radius: 5px;
+
+
 }
 
 
 
 .icons {
-  color:black;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2em;
   font-size: 1.5em;
-  padding-top: 2em;
+  padding-top: .2em;
 }
+
+
 
 .Information {
   color: black;
@@ -491,7 +507,7 @@ header {
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
-  padding-top: 2em;
+  padding-top: 1em;
 
 
 
