@@ -512,11 +512,11 @@ footer {
 
 
 }
-/*-------------------------------------------------------------------------*/
+/*----------------------------Media query---------------------------------------------*/
 
 @media screen and (min-width: 768px) {
   .logoTwo {
-    font-size: 3em;
+    font-size:3em;
   }
 
   form, .search {
@@ -524,20 +524,21 @@ footer {
     justify-content: flex-start;
     align-items: center;
     position: relative;
-    top: 3.3em;
-    width: 55%;
+    top: 3.6em;
+    width: 65%;
     margin-left: auto;
   }
 
   input[type=text] {
     width: 100px;
+    padding: .5em;
     box-sizing: border-box;
     border-radius: 4px;
     border: 2px solid black;
     background-image: url("https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-1.png");
     background-position-x: 65px;
-    background-position-y: -4px;
-    background-size: 30px;
+    background-position-y: -5px;
+    background-size: 40px;
     background-repeat: no-repeat;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
