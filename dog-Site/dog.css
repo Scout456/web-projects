@@ -32,7 +32,7 @@ form, .search {
   align-items: center;
   position: relative;
   top: 2.4em;
-  width: 60%;
+  width: 55%;
   margin-left: auto;
 
 }
@@ -117,7 +117,7 @@ input[type=text]:focus {
   /*background-color: red;*/
   position: fixed;
   top: 34px;
-  right: 50px;
+  right: 30px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -512,11 +512,12 @@ footer {
 
 
 }
+
 /*----------------------------Media query---------------------------------------------*/
 
 @media screen and (min-width: 768px) {
   .logoTwo {
-    font-size:3em;
+    font-size: 3em;
   }
 
   form, .search {
@@ -550,7 +551,26 @@ footer {
   }
 
   .hamburger-menuTwo {
-  display: none;
+    display: none;
 
+  }
+
+  .navbarTwo {
+    background-image: none;
+    position: relative;
+  
+
+  }
+
+  .nav-listTwo{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 6em;
+    
+
+  }
+  .nav-linkTwo{
+    font-size: 1em;
   }
 }
