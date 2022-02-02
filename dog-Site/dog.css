@@ -557,20 +557,28 @@ footer {
 
   .navbarTwo {
     background-image: none;
-    position: relative;
   
+}
 
-  }
-
-  .nav-listTwo{
+  .nav-listTwo {
     display: flex;
-    justify-content: end;
-    position: absolute;
-    left: 6em;
+    position: relative;
+    right: 295px;
+    bottom: 100px;
     
+    
+  }
 
-  }
-  .nav-linkTwo{
-    font-size: 1em;
-  }
+  .nav-linkTwo {
+  font-size:1.1em;
+  color: #262626;
+
+
+}
+
+  .nav-itemTwo {
+    list-style-type: none;
+    margin: 1em;
+    
+}
 }
