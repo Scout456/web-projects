@@ -100,11 +100,12 @@ input[type=text]:focus {
   text-transform: uppercase;
   position: relative;
   padding: 3px 0;
+  transition: .3s ease-in-out;
 }
 
 .nav-linkTwo:hover {
-  border-bottom: 2px solid bisque;
-  border-top: 2px solid bisque;
+  border-bottom: 3px solid bisque;
+  border-top: 3px solid bisque;
 
 }
 
@@ -557,28 +558,35 @@ footer {
 
   .navbarTwo {
     background-image: none;
-  
-}
+
+  }
 
   .nav-listTwo {
     display: flex;
     position: relative;
     right: 295px;
     bottom: 100px;
-    
-    
+
+
   }
 
   .nav-linkTwo {
-  font-size:1.1em;
-  color: #262626;
+    font-size: 1.1em;
+    color: #262626;
+    transition: .3s ease-in-out;
 
 
-}
+  }
 
   .nav-itemTwo {
     list-style-type: none;
     margin: 1em;
-    
-}
+
+  }
+
+  .nav-linkTwo:hover {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+
+  }
 }
