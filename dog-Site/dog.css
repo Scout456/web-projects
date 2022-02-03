@@ -558,14 +558,15 @@ footer {
 
   .navbarTwo {
     background-image: none;
+    position: none;
 
   }
 
   .nav-listTwo {
     display: flex;
     position: relative;
-    right: 295px;
-    bottom: 100px;
+    right: 130%;
+    bottom: 17%;
 
 
   }
