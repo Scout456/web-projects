@@ -548,7 +548,7 @@ footer {
   }
 
   input[type=text]:focus {
-    width: 55%;
+    width: 30%;
   }
 
   .hamburger-menuTwo {
@@ -558,15 +558,15 @@ footer {
 
   .navbarTwo {
     background-image: none;
-    position: none;
+    position: static;
 
   }
 
   .nav-listTwo {
     display: flex;
-    position: relative;
-    right: 130%;
-    bottom: 17%;
+    position: absolute;
+    right: 3%;
+    top: 13%;
 
 
   }
@@ -589,5 +589,32 @@ footer {
     border-bottom: 3px solid black;
     border-top: 3px solid black;
 
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 80%;
+    padding: 5em 0 0 0;
+    color: whitesmoke;
+  }
+
+  .topDog {
+    font-size: 2em;
+  }
+
+  .forYourDog {
+    font-size: 2.5em;
+  }
+
+  .right-column, .right-columnBottom, .right-columnTwo {
+    transition: all 1.5s ease-in-out;
+    color: whitesmoke;
+    font-size: 4em;
+    padding: .2em 0 0 .4em;
+    position: relative;
+    top: 40%;
   }
 }
