@@ -501,6 +501,7 @@ footer {
   gap: 2em;
   font-size: 1.5em;
   padding-top: .2em;
+  cursor: pointer;
 }
 
 
@@ -520,6 +521,7 @@ footer {
 .backToTop{
   text-decoration: none;
   color: whitesmoke;
+  cursor: pointer;
 
 }
 /*----------------------------Media query---------------------------------------------*/
