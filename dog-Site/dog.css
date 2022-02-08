@@ -479,6 +479,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+
+
 }
 
 .footer {
@@ -633,9 +635,11 @@ footer {
   .img {
     width: 90%;
     display: block;
-    margin: 0 0 0 1em;
+    margin: 0 0 0 2em;
     border-radius: 6px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 
   }
+
+
 }
