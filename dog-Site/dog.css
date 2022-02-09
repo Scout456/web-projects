@@ -524,8 +524,15 @@ footer {
   text-decoration: none;
   color: whitesmoke;
   cursor: pointer;
-
+  transition: .3s ease-in-out;
 }
+
+.backToTop:hover{
+ border-bottom: 2px solid white;
+ border-top: 2px solid white;
+}
+
+
 
 /*----------------------------Media query---------------------------------------------*/
 
