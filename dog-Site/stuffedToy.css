@@ -6,6 +6,7 @@
 .contain {
   background-color: aqua;
   display: flex;
+  
 
 
 
@@ -14,13 +15,17 @@
 
 .logoIcon {
   background-color: blue;
-  flex: 2;
+  flex: 1;
+  gap: 1em;
+  
 
 }
 
 .hamMenu {
   background-color: yellow;
-  flex: 4;
+  flex: 1;
+  gap: 1em;
+
 
 }
 
@@ -80,7 +85,7 @@
   /*background-color: red;*/
   position: fixed;
   top: 0;
-  right: 50px;
+  right: 25px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -98,7 +103,7 @@
 
 
 .changeTwo .line-01 {
-  transform: rotateZ(-45deg) translate(-4px, 3px);
+  transform: rotateZ(-45deg) translate(-5px, 3px);
   /*Makes a X*/
   background-color: bisque;
 
