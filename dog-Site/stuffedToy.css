@@ -6,7 +6,7 @@
 .contain {
   background-color: aqua;
   display: flex;
-  
+
 
 
 
@@ -17,7 +17,7 @@
   background-color: blue;
   flex: 1;
   gap: 1em;
-  
+
 
 }
 
@@ -68,7 +68,7 @@
 .nav-linkTwo {
   text-decoration: none;
   font-size: 30px;
-  color:black;
+  color: black;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -118,4 +118,23 @@
   /*Makes a X*/
   background-color: bisque;
 
+}
+
+/*----------------------------------------------------------------------------*/
+
+.stuffedMain{
+  background-color:green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stuffOne{
+  background-color: aqua;
+  flex: 1;
+}
+
+.stuffTwo{
+  background-color: bisque;
+  flex: 1;
 }
