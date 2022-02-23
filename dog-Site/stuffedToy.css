@@ -131,10 +131,17 @@
 
 .stuffOne{
   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
 }
 
 .stuffTwo{
   background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 1;
 }
