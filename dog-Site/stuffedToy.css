@@ -127,10 +127,8 @@ body html{
 /*----------------------------------------------------------------------------*/
 
 .stuffedMain {
+  width: 100%;
   
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .stuffOne {
@@ -160,3 +158,9 @@ body html{
   align-items: center;
   flex: 1;
 }
+
+ @media screen and (min-width: 768px){
+   .stuffedMain{
+     display: flex;
+   }
+ }
