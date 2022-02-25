@@ -8,6 +8,7 @@ body html{
 }
 
 .contain {
+  font-family:serif;
   background-color: aqua;
   display: flex;
 
@@ -127,6 +128,8 @@ body html{
 /*----------------------------------------------------------------------------*/
 
 .stuffedMain {
+  font-family: serif;
+  font-size: 1em;
   width: 100%;
   
 }
@@ -139,11 +142,18 @@ body html{
   flex: 1;
 }
 
-.buttonMain{
+.stuffToyInfo{
   display: flex;
   align-self: center;
+}
+
+.buttonMain{
+  display: flex;
+  align-self: flex-end;
   position: relative;
-  right: 1.5em;
+  right: 6em;
+  bottom: 2em;
+  
   
 }
 
@@ -159,7 +169,7 @@ body html{
 
 
 
- @media screen and (min-width: 768px){
+ @media screen and (min-width: 650px){
    .stuffedMain{
      display: flex;
    }
