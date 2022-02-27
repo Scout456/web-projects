@@ -47,6 +47,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /*-------------------------------------------End of css reset-----------------------------------*/
 
 body html {
@@ -104,6 +105,7 @@ body html {
   align-items: center;
   transition: .8s;
   border-radius: 20px 0 0 20px;
+  z-index: 5;
 }
 
 .changeTwo {
@@ -183,7 +185,7 @@ body html {
 .stuffOne {
   width: 100%;
   padding: .5em;
-  background-color: aqua;
+  background-image: url('https://media.istockphoto.com/photos/blue-sky-and-white-clouds-background-picture-id825778252?k=20&m=825778252&s=612x612&w=0&h=i5tqMrPeAshcGZ_Clma9t_wp9rIw1bkm0gdz2ozR7OQ=');
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -196,25 +198,26 @@ body html {
   align-self: center;
   position: relative;
   left: 3em;
-  
+
 }
 
 .buttonMain {
   display: flex;
   align-self: flex-end;
-  
+
 
 }
 
 .stuffToyBtn {
-  background-color: #3E7DB5;
+  background-color: #46433E;
+  color: whitesmoke;
   font-size: .7em;
   padding: .3em;
   border-radius: 10px 10px;
   width: 6em;
   border: none;
   position: relative;
-  right: 5em;  
+  right: 5em;
   bottom: 6em;
 }
 
