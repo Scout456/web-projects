@@ -182,6 +182,7 @@ body html {
 
 .stuffOne {
   width: 100%;
+  padding: .5em;
   background-color: aqua;
   display: flex;
   justify-content: flex-start;
